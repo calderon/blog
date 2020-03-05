@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react"
 
-import Header from '../components/Header';
+import Header from "../components/Header"
 
-const About = (props) => {
+const About = props => {
   return (
-    <div className='page--home'>
+    <div className="page--home">
       <Header />
       <p>This is about me.</p>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
