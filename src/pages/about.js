@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 import Header from '../components/Header';
 
-const Home = (props) => {
+const About = (props) => {
   return (
     <div className='page--home'>
       <Header />
-      <div>Home page!</div>
+      <p>This is about me.</p>
     </div>
   );
 };
 
-export default Home;
+export default About;

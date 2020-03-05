@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "blog",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "My personal blog",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -11,10 +11,12 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "^2.19.7",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
@@ -23,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/calderon/blog.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
