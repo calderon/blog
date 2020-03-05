@@ -1,3 +1,7 @@
+/**
+ * source: https://www.gatsbyjs.org/docs/unit-testing/#2-creating-a-configuration-file-for-jest
+ */
+
 module.exports = {
   transform: {
     "^.+\\.jsx?$": `<rootDir>/jest-preprocess.js`,
