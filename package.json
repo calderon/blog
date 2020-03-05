@@ -15,25 +15,34 @@
     "frontend"
   ],
   "main": "src/pages/index.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "yarn run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "npm run clean && npm run build && node ./config/deploy"
+    "test": "jest",
+    "test:watch": "yarn test --watch",
+    "test:snapshots:update": "yarn test -u",
+    "deploy": "yarn run clean && yarn run build && node ./config/deploy"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^10.0.0",
     "gatsby": "^2.19.29",
     "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
   "devDependencies": {
+    "babel-jest": "^25.1.0",
+    "babel-preset-gatsby": "^0.2.29",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1"
   },
   "homepage": "https://calderon.github.io/",
