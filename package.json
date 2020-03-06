@@ -34,7 +34,9 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^10.0.0",
     "gatsby": "^2.19.29",
+    "gatsby-plugin-sass": "^2.1.29",
     "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
