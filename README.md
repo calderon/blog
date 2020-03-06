@@ -15,6 +15,8 @@ These are the source files for 💫 [my new personal site](https://calderon.gith
 
 This project is made to complete all [#100daysOfGatsby](https://www.gatsbyjs.org/blog/100days) challenges, creating my personal blogsite in the process and improving my development skills on [Gatsby](https://www.gatsbyjs.org) & [React](reactjs.org/).
 
+Not everything I do on this project is included in #100DaysOfGatsby challenges. If you want, you can keep up to date with the progress of this project by following the [issues](https://github.com/calderon/blog/issues).
+
 🧐 I'm also in [twitter](https://twitter.com/calderon) and [linkedin](https://www.linkedin.com/in/danielcalderon/).
 
 ## 🚀 Challenges
