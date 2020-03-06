@@ -9,6 +9,8 @@
   #100DaysOfGatsby challenges
 </h1>
 
+[![Build Status](https://travis-ci.org/calderon/blog.svg?branch=master)](https://travis-ci.org/calderon/blog)
+
 These are the source files for 💫 [my new personal site](https://calderon.github.io/) ( ⚠️ site still under construction ⚠️ ).
 
 This project is made to complete all [#100daysOfGatsby](https://www.gatsbyjs.org/blog/100days) challenges, creating my personal blogsite in the process and improving my development skills on [Gatsby](https://www.gatsbyjs.org) & [React](reactjs.org/).
