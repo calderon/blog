@@ -1,0 +1,37 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: calderon.github.io
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: upgrade yarn
+        run: npm install yarn -g
+      - name: install packages
+        run: yarn install --frozen-lockfile
+      - name: test
+        run: yarn test -u
+      - name: build
+        run: yarn build
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3.5.0
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: calderon/calderon.github.io
+          disable_nojekyll: true
+          publish_branch: master
+          publish_dir: ./public
