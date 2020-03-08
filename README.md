@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -9,9 +8,15 @@
   #100DaysOfGatsby challenges
 </h1>
 
+![calderon.github.io](https://github.com/calderon/blog/workflows/calderon.github.io/badge.svg)
+
 These are the source files for 💫 [my new personal site](https://calderon.github.io/) ( ⚠️ site still under construction ⚠️ ).
 
 This project is made to complete all [#100daysOfGatsby](https://www.gatsbyjs.org/blog/100days) challenges, creating my personal blogsite in the process and improving my development skills on [Gatsby](https://www.gatsbyjs.org) & [React](reactjs.org/).
+
+It is automatically deployed and published to [calderon.github.io](https://calderon.github.io/) by using github actions.
+
+Not everything I do on this project is included in #100DaysOfGatsby challenges. If you want, you can keep up to date with the progress of this project by following the [issues](https://github.com/calderon/blog/issues).
 
 🧐 I'm also in [twitter](https://twitter.com/calderon) and [linkedin](https://www.linkedin.com/in/danielcalderon/).
 
