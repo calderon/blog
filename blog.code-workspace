@@ -1,21 +1,24 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		// Set the default
-		"editor.formatOnSave": false,
-		// Enable per-language
-		"[javascript]": {
-			"editor.formatOnSave": true
-		},
-		"[javascriptreact]": {
-			"editor.formatOnSave": true
-		},
-		"[json]": {
-			"editor.formatOnSave": true
-		},
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.formatOnSave": true
+    },
+  }
 }
