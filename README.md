@@ -8,7 +8,7 @@
   #100DaysOfGatsby challenges
 </h1>
 
-![calderon.github.io](https://github.com/calderon/blog/workflows/calderon.github.io/badge.svg)
+![calderon.github.io](https://github.com/calderon/blog/workflows/calderon.github.io/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 These are the source files for 💫 [my new personal site](https://calderon.github.io/) ( ⚠️ site still under construction ⚠️ ).
 
