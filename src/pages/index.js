@@ -1,11 +1,10 @@
 import React from "react"
 
-import Header from "../components/Header"
+import Layout from "../components/layoutDefault"
 
 const Home = props => {
   return (
-    <div className="page--home">
-      <Header />
+    <Layout>
       <p>Hello! Welcome to my new coding lab, my own personal site.</p>
       <p>Here you can see the progress of #100DaysOfGatsby challenges.</p>
 
@@ -15,7 +14,7 @@ const Home = props => {
         You can find out the project on{" "}
         <a href="https://github.com/calderon/blog">github</a>.
       </p>
-    </div>
+    </Layout>
   )
 }
 

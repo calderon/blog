@@ -11,7 +11,12 @@ Object {
         <h1
           class="header__title heading heading--h1"
         >
-          Daniel Calderón's blog
+          <a
+            class="header__title__link"
+            href="/"
+          >
+            Daniel Calderón
+          </a>
         </h1>
         <nav
           class="header__navigation"
@@ -52,7 +57,12 @@ Object {
       <h1
         class="header__title heading heading--h1"
       >
-        Daniel Calderón's blog
+        <a
+          class="header__title__link"
+          href="/"
+        >
+          Daniel Calderón
+        </a>
       </h1>
       <nav
         class="header__navigation"
