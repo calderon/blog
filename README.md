@@ -8,7 +8,14 @@
   #100DaysOfGatsby challenges
 </h1>
 
-![calderon.github.io](https://github.com/calderon/blog/workflows/calderon.github.io/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+![calderon.github.io](https://github.com/calderon/blog/workflows/calderon.github.io/badge.svg)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+[![Lighthouse Accessibility Badge](https://github.com/calderon/blog/blob/master/static/lighthouseBadges/lighthouse_accessibility.svg)](https://calderon.github.io)
+[![Lighthouse Best Practices Badge](https://github.com/calderon/blog/blob/master/static/lighthouseBadges/lighthouse_best-practices.svg)](https://calderon.github.io)
+[![Lighthouse Performance Badge](https://github.com/calderon/blog/blob/master/static/lighthouseBadges/lighthouse_performance.svg)](https://calderon.github.io)
+[![Lighthouse PWA Badge](https://github.com/calderon/blog/blob/master/static/lighthouseBadges/lighthouse_pwa.svg)](https://calderon.github.io)
+[![Lighthouse SEO Badge](https://github.com/calderon/blog/blob/master/static/lighthouseBadges/lighthouse_seo.svg)](https://calderon.github.io)
 
 These are the source files for 💫 [my new personal site](https://calderon.github.io/) ( ⚠️ site still under construction ⚠️ ).
 
