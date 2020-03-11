@@ -6,7 +6,11 @@ import Heading from "../Heading"
 const Header = props => {
   return (
     <header className="header">
-      <Heading className="header__title">Daniel Calderón's blog</Heading>
+      <Heading className="header__title">
+        <Link className="header__title__link" to="/">
+          Daniel Calderón
+        </Link>
+      </Heading>
 
       <nav className="header__navigation">
         <Heading className="heading--h1 header__navigation_title">

@@ -5,77 +5,18 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="page--home"
-      >
-        <header
-          class="header"
-        >
-          <h1
-            class="header__title heading heading--h1"
-          >
-            Daniel Calderón's blog
-          </h1>
-          <nav
-            class="header__navigation"
-          >
-            <h1
-              class="heading--h1 header__navigation_title heading heading--h1"
-            >
-              Navigation menu
-            </h1>
-            <ul
-              class="header__navigation__list"
-            >
-              <li>
-                <a
-                  class="header__navigation__link header__navigation__link--blog"
-                  href="/"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  class="header__navigation__link header__navigation__link--about"
-                  href="/about"
-                >
-                  About me
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <p>
-          Hello! Welcome to my new coding lab, my own personal site.
-        </p>
-        <p>
-          Here you can see the progress of #100DaysOfGatsby challenges.
-        </p>
-        <p>
-          You can find out the project on
-           
-          <a
-            href="https://github.com/calderon/blog"
-          >
-            github
-          </a>
-          .
-        </p>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="page--home"
-    >
       <header
         class="header"
       >
         <h1
           class="header__title heading heading--h1"
         >
-          Daniel Calderón's blog
+          <a
+            class="header__title__link"
+            href="/"
+          >
+            Daniel Calderón
+          </a>
         </h1>
         <nav
           class="header__navigation"
@@ -107,11 +48,82 @@ Object {
           </ul>
         </nav>
       </header>
+      <main>
+        <p>
+          Hello! Welcome to my new coding lab, my own personal site.
+        </p>
+        <p>
+          Here you can see the progress of #100DaysOfGatsby challenges.
+        </p>
+        <p>
+          It is automatically deployed by using github actions.
+        </p>
+        <p>
+          You can find out the project on
+           
+          <a
+            href="https://github.com/calderon/blog"
+          >
+            github
+          </a>
+          .
+        </p>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header"
+    >
+      <h1
+        class="header__title heading heading--h1"
+      >
+        <a
+          class="header__title__link"
+          href="/"
+        >
+          Daniel Calderón
+        </a>
+      </h1>
+      <nav
+        class="header__navigation"
+      >
+        <h1
+          class="heading--h1 header__navigation_title heading heading--h1"
+        >
+          Navigation menu
+        </h1>
+        <ul
+          class="header__navigation__list"
+        >
+          <li>
+            <a
+              class="header__navigation__link header__navigation__link--blog"
+              href="/"
+            >
+              Blog
+            </a>
+          </li>
+          <li>
+            <a
+              class="header__navigation__link header__navigation__link--about"
+              href="/about"
+            >
+              About me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
       <p>
         Hello! Welcome to my new coding lab, my own personal site.
       </p>
       <p>
         Here you can see the progress of #100DaysOfGatsby challenges.
+      </p>
+      <p>
+        It is automatically deployed by using github actions.
       </p>
       <p>
         You can find out the project on
@@ -123,7 +135,7 @@ Object {
         </a>
         .
       </p>
-    </div>
+    </main>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

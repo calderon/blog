@@ -1,11 +1,10 @@
 import React from "react"
 
-import Header from "../components/Header"
+import Layout from "../components/layoutDefault"
 
 const About = props => {
   return (
-    <div className="page--home">
-      <Header />
+    <Layout>
       <p>My name is Daniel Calderón.</p>
       <p>
         I'm a Front-end engineer, focused on web development, also an agile
@@ -27,7 +26,7 @@ const About = props => {
       </p>
 
       <p>Knowledge is power, sharing it is pleasure.</p>
-    </div>
+    </Layout>
   )
 }
 
