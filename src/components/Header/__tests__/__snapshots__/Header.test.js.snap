@@ -12,6 +12,7 @@ Object {
           class="header__title heading heading--h1"
         >
           <a
+            aria-current="page"
             class="header__title__link"
             href="/"
           >
@@ -31,6 +32,7 @@ Object {
           >
             <li>
               <a
+                aria-current="page"
                 class="header__navigation__link header__navigation__link--blog"
                 href="/"
               >
@@ -58,6 +60,7 @@ Object {
         class="header__title heading heading--h1"
       >
         <a
+          aria-current="page"
           class="header__title__link"
           href="/"
         >
@@ -77,6 +80,7 @@ Object {
         >
           <li>
             <a
+              aria-current="page"
               class="header__navigation__link header__navigation__link--blog"
               href="/"
             >
