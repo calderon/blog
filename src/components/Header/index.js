@@ -1,41 +1,31 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Heading from "../Heading"
+
+const HeaderTitle = styled(Heading)`
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: 0.13rem;
+  line-height: 1.5;
+  text-transform: lowercase;
+  margin: 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+`
 
 const Header = props => {
   return (
     <header className="header">
-      <Heading className="header__title">
+      <HeaderTitle className="header__title">
         <Link className="header__title__link" to="/">
           Daniel Calderón
         </Link>
-      </Heading>
-
-      <nav className="header__navigation">
-        <Heading className="heading--h1 header__navigation_title">
-          Navigation menu
-        </Heading>
-
-        <ul className="header__navigation__list">
-          <li>
-            <Link
-              className="header__navigation__link header__navigation__link--blog"
-              to="/"
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="header__navigation__link header__navigation__link--about"
-              to="/about"
-            >
-              About me
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      </HeaderTitle>
     </header>
   )
 }
