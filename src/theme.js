@@ -25,6 +25,4 @@ const breakpoints = {
   xl: 1024,
 }
 
-const theme = { palette, colors, font, breakpoints }
-
-export default theme
+export default { palette, colors, font, breakpoints }
