@@ -1,19 +1,19 @@
 import React from "react"
 import styled, { css } from "styled-components"
 
-import { srOnly } from "../../assets/styles/mixins"
+import { srOnly } from "../../assets/styles/helpers"
 
-const StyledHeading = styled.h1.attrs(props => ({
-  className: `heading heading--${props.as}`,
+const Heading = styled.h1.attrs(props => ({
+  className: `heading heading--${props.as || 'h1'}`,
 }))`
-  color: ${props =>
-    props.inverted ? props.theme.palette.primary : props.theme.palette.primary};
+  ${props => (props.srOnly ? srOnly : css`
+    margin: 0;
+    font-weight: 700;
 
-  ${props => (props.srOnly ? srOnly : "")};
+    small {
+      font-weight: 500;
+    }
+  `)};
 `
 
-const Heading = props => {
-  return <StyledHeading as="h1" {...props} />
-}
-
-export default Heading
+export default Heading;
