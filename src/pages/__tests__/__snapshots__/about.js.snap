@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-fzpans bAIcEV page"
+        class="sc-fzplWN bnAGDk page"
       >
         <header
           class="sc-AxiKw dxCGxF header"
@@ -58,7 +58,8 @@ Object {
           </nav>
         </header>
         <aside
-          class="sc-Axmtr POKFE"
+          class="sc-Axmtr jAxWcK"
+          role="banner"
         >
           <h1
             class="sc-AxjAm dxUEld heading heading--h1"
@@ -70,7 +71,21 @@ Object {
             <mark>
               front-end developer
             </mark>
-             from Sevilla and this is my personal site.
+             from Sevilla.
+            <br />
+            I write here about things I love: 
+            <mark>
+              Javascript
+            </mark>
+            , 
+            <mark>
+              React
+            </mark>
+             and 
+            <mark>
+              CSS3
+            </mark>
+            .
           </p>
           <p>
             <mark>
@@ -79,10 +94,11 @@ Object {
           </p>
         </aside>
         <main
-          class="sc-fzplWN fszGSo main"
+          class="sc-fznyAO bbVNZw main"
         >
           <section
-            class="sc-Axmtr MpOCT"
+            class="sc-Axmtr bzxlwt"
+            role="complementary"
           >
             <header
               class="sc-AxmLO cYEACK"
@@ -105,21 +121,27 @@ Object {
               </h1>
             </header>
             <div
-              class="sc-fzoLsD cspScf"
+              class="sc-fzoLsD ZGMoS"
             >
-              <div>
+              <div
+                class="sc-fzpans bxsNfO"
+              >
                 This will be a blog post
               </div>
-              <div>
+              <div
+                class="sc-fzpans bxsNfO"
+              >
                 This will be a blog post
               </div>
-              <div>
+              <div
+                class="sc-fzpans bxsNfO"
+              >
                 This will be a blog post
               </div>
             </div>
           </section>
           <section
-            class="sc-Axmtr fcqoqh"
+            class="sc-Axmtr dgGCdp"
           >
             <header
               class="sc-AxmLO cYEACK"
@@ -131,21 +153,30 @@ Object {
               </h1>
             </header>
             <div
-              class="sc-fzoLsD cspScf"
+              class="sc-fzoLsD ZGMoS"
             >
-              <p>
-                Take a sit. How can I help you?
-              </p>
-              <div>
+              <div
+                class="sc-fzpans bxsNfO"
+              >
+                <p>
+                  Take a sit. How can I help you?
+                </p>
+              </div>
+              <div
+                class="sc-fzpans bxsNfO"
+              >
                 Your name + Email
               </div>
-              <div>
+              <div
+                class="sc-fzpans bxsNfO"
+              >
                 Your message + Send your message
               </div>
             </div>
           </section>
           <section
-            class="sc-Axmtr hPKLEL"
+            class="sc-Axmtr kKThAj"
+            role="contentinfo"
           >
             <h1
               class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
@@ -156,7 +187,7 @@ Object {
               class="sc-AxirZ QtCRE list"
             >
               <li
-                class="sc-fznyAO dJHrAZ"
+                class="sc-fznKkj csLfrY"
               >
                 <a
                   href="https://github.com/calderon"
@@ -167,7 +198,7 @@ Object {
                 </a>
               </li>
               <li
-                class="sc-fznyAO dJHrAZ"
+                class="sc-fznKkj csLfrY"
               >
                 <a
                   href="https://twitter.com/dcalderon"
@@ -178,7 +209,7 @@ Object {
                 </a>
               </li>
               <li
-                class="sc-fznyAO dJHrAZ"
+                class="sc-fznKkj csLfrY"
               >
                 <a
                   href="http://linkedin.com/in/danielcalderon"
@@ -189,7 +220,7 @@ Object {
                 </a>
               </li>
               <li
-                class="sc-fznyAO dJHrAZ"
+                class="sc-fznKkj csLfrY"
               >
                 <a
                   href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
@@ -202,12 +233,56 @@ Object {
             </ul>
           </section>
         </main>
+        <footer
+          class="sc-Axmtr kNhsEL"
+        >
+          <div
+            class="sc-fzoLsD keKnWY"
+          >
+            <div
+              class="sc-fzpans bxsNfO"
+            >
+              <p>
+                This blog is made with 
+                <a
+                  href="external"
+                >
+                  gatsby
+                </a>
+                , hosted in
+                 
+                <a
+                  href="https://github.com/calderon/blog"
+                  rel="me external"
+                >
+                  github
+                </a>
+                 
+                and deployed using github actions.
+              </p>
+            </div>
+            <div
+              class="sc-fzpans huGKry"
+              opacity=".6"
+            >
+              <p>
+                the content from the blog is
+                 
+                <span
+                  class="copyright"
+                >
+                  © 2020 danielcalderon.net
+                </span>
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-fzpans bAIcEV page"
+      class="sc-fzplWN bnAGDk page"
     >
       <header
         class="sc-AxiKw dxCGxF header"
@@ -259,7 +334,8 @@ Object {
         </nav>
       </header>
       <aside
-        class="sc-Axmtr POKFE"
+        class="sc-Axmtr jAxWcK"
+        role="banner"
       >
         <h1
           class="sc-AxjAm dxUEld heading heading--h1"
@@ -271,7 +347,21 @@ Object {
           <mark>
             front-end developer
           </mark>
-           from Sevilla and this is my personal site.
+           from Sevilla.
+          <br />
+          I write here about things I love: 
+          <mark>
+            Javascript
+          </mark>
+          , 
+          <mark>
+            React
+          </mark>
+           and 
+          <mark>
+            CSS3
+          </mark>
+          .
         </p>
         <p>
           <mark>
@@ -280,10 +370,11 @@ Object {
         </p>
       </aside>
       <main
-        class="sc-fzplWN fszGSo main"
+        class="sc-fznyAO bbVNZw main"
       >
         <section
-          class="sc-Axmtr MpOCT"
+          class="sc-Axmtr bzxlwt"
+          role="complementary"
         >
           <header
             class="sc-AxmLO cYEACK"
@@ -306,21 +397,27 @@ Object {
             </h1>
           </header>
           <div
-            class="sc-fzoLsD cspScf"
+            class="sc-fzoLsD ZGMoS"
           >
-            <div>
+            <div
+              class="sc-fzpans bxsNfO"
+            >
               This will be a blog post
             </div>
-            <div>
+            <div
+              class="sc-fzpans bxsNfO"
+            >
               This will be a blog post
             </div>
-            <div>
+            <div
+              class="sc-fzpans bxsNfO"
+            >
               This will be a blog post
             </div>
           </div>
         </section>
         <section
-          class="sc-Axmtr fcqoqh"
+          class="sc-Axmtr dgGCdp"
         >
           <header
             class="sc-AxmLO cYEACK"
@@ -332,21 +429,30 @@ Object {
             </h1>
           </header>
           <div
-            class="sc-fzoLsD cspScf"
+            class="sc-fzoLsD ZGMoS"
           >
-            <p>
-              Take a sit. How can I help you?
-            </p>
-            <div>
+            <div
+              class="sc-fzpans bxsNfO"
+            >
+              <p>
+                Take a sit. How can I help you?
+              </p>
+            </div>
+            <div
+              class="sc-fzpans bxsNfO"
+            >
               Your name + Email
             </div>
-            <div>
+            <div
+              class="sc-fzpans bxsNfO"
+            >
               Your message + Send your message
             </div>
           </div>
         </section>
         <section
-          class="sc-Axmtr hPKLEL"
+          class="sc-Axmtr kKThAj"
+          role="contentinfo"
         >
           <h1
             class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
@@ -357,7 +463,7 @@ Object {
             class="sc-AxirZ QtCRE list"
           >
             <li
-              class="sc-fznyAO dJHrAZ"
+              class="sc-fznKkj csLfrY"
             >
               <a
                 href="https://github.com/calderon"
@@ -368,7 +474,7 @@ Object {
               </a>
             </li>
             <li
-              class="sc-fznyAO dJHrAZ"
+              class="sc-fznKkj csLfrY"
             >
               <a
                 href="https://twitter.com/dcalderon"
@@ -379,7 +485,7 @@ Object {
               </a>
             </li>
             <li
-              class="sc-fznyAO dJHrAZ"
+              class="sc-fznKkj csLfrY"
             >
               <a
                 href="http://linkedin.com/in/danielcalderon"
@@ -390,7 +496,7 @@ Object {
               </a>
             </li>
             <li
-              class="sc-fznyAO dJHrAZ"
+              class="sc-fznKkj csLfrY"
             >
               <a
                 href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
@@ -403,6 +509,50 @@ Object {
           </ul>
         </section>
       </main>
+      <footer
+        class="sc-Axmtr kNhsEL"
+      >
+        <div
+          class="sc-fzoLsD keKnWY"
+        >
+          <div
+            class="sc-fzpans bxsNfO"
+          >
+            <p>
+              This blog is made with 
+              <a
+                href="external"
+              >
+                gatsby
+              </a>
+              , hosted in
+               
+              <a
+                href="https://github.com/calderon/blog"
+                rel="me external"
+              >
+                github
+              </a>
+               
+              and deployed using github actions.
+            </p>
+          </div>
+          <div
+            class="sc-fzpans huGKry"
+            opacity=".6"
+          >
+            <p>
+              the content from the blog is
+               
+              <span
+                class="copyright"
+              >
+                © 2020 danielcalderon.net
+              </span>
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   </div>,
   "debug": [Function],

@@ -35,11 +35,23 @@ const GlobalStyle = createGlobalStyle`
       margin-bottom: 0;
     }
   }
+
+  a {
+    color: ${props => props.theme.palette.quaternary};
+
+    &:hover {
+      color: ${props => props.theme.palette.quinary};
+    }
+  }
+
+  .copyright {
+    display: inline-block;
+  }
 `
 
 import Header from "../components/Header"
 import Heading from "../components/Heading"
-import { Container } from "./Container"
+import { Container, ContainerMain, ContainerColumn } from "./Container"
 
 const Page = styled.div.attrs(props => ({
   className: "page",
@@ -64,18 +76,44 @@ const LayoutDefault = ({ children }) => {
       <GlobalStyle />
       <Page>
         <Header />
-        <Container as="aside" bright>
+        <Container as="aside" bright role="banner">
           <Heading srOnly>Welcome message</Heading>
           <p>
-            Hi. I’m a <mark>front-end developer</mark> from Sevilla and this is
-            my personal site.
+            Hi. I’m a <mark>front-end developer</mark> from Sevilla.
+            <br />I write here about things I love: <mark>
+              Javascript
+            </mark>, <mark>React</mark> and <mark>CSS3</mark>.
           </p>
 
           <p>
             <mark>Be welcome.</mark>
           </p>
         </Container>
+
         <Main>{children}</Main>
+
+        <Container as="footer" main secondary small noHeader>
+          <ContainerMain columnize={2}>
+            <ContainerColumn>
+              <p>
+                This blog is made with <a href="external">gatsby</a>, hosted in{" "}
+                <a href="https://github.com/calderon/blog" rel="me external">
+                  github
+                </a>{" "}
+                and deployed using github actions.
+              </p>
+            </ContainerColumn>
+
+            <ContainerColumn opacity=".6" textRight>
+              <p>
+                the content from the blog is{" "}
+                <span className="copyright">
+                  &copy; 2020 danielcalderon.net
+                </span>
+              </p>
+            </ContainerColumn>
+          </ContainerMain>
+        </Container>
       </Page>
     </ThemeProvider>
   )

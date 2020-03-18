@@ -9,6 +9,7 @@ import {
   ContainerHeader,
   ContainerHeading,
   ContainerMain,
+  ContainerColumn,
 } from "../components/Container"
 import List from "../components/List"
 
@@ -40,7 +41,7 @@ const ListItem = props => {
 const Home = props => {
   return (
     <Layout>
-      <Container main tertiary>
+      <Container main tertiary role="complementary">
         <ContainerHeader>
           <ContainerHeading>
             Latest articles{" "}
@@ -51,9 +52,9 @@ const Home = props => {
         </ContainerHeader>
 
         <ContainerMain columnize={3}>
-          <div>This will be a blog post</div>
-          <div>This will be a blog post</div>
-          <div>This will be a blog post</div>
+          <ContainerColumn>This will be a blog post</ContainerColumn>
+          <ContainerColumn>This will be a blog post</ContainerColumn>
+          <ContainerColumn>This will be a blog post</ContainerColumn>
         </ContainerMain>
       </Container>
 
@@ -62,13 +63,15 @@ const Home = props => {
           <ContainerHeading>Contact me</ContainerHeading>
         </ContainerHeader>
         <ContainerMain columnize={3}>
-          <p>Take a sit. How can I help you?</p>
-          <div>Your name + Email</div>
-          <div>Your message + Send your message</div>
+          <ContainerColumn>
+            <p>Take a sit. How can I help you?</p>
+          </ContainerColumn>
+          <ContainerColumn>Your name + Email</ContainerColumn>
+          <ContainerColumn>Your message + Send your message</ContainerColumn>
         </ContainerMain>
       </Container>
 
-      <Container main bright inline>
+      <Container main bright inline role="contentinfo">
         <ContainerHeading>I'm also in</ContainerHeading>
         <List unstyled inlineBlock>
           <ListItem url="https://github.com/calderon">github</ListItem>
