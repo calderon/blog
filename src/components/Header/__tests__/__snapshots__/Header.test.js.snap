@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="header"
+        class="sc-AxiKw dxCGxF header"
       >
         <h1
-          class="sc-AxjAm jUyDew sc-AxirZ iXqYeJ header__title heading heading--h1"
+          class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
         >
           <a
             aria-current="page"
@@ -19,15 +19,49 @@ Object {
             Daniel Calderón
           </a>
         </h1>
+        <nav
+          class="sc-AxhUy kMyssT header__navigation"
+        >
+          <h1
+            class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
+          >
+            Navigation menu
+          </h1>
+          <ul
+            class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+          >
+            <li
+              class="sc-AxheI cOzwHk"
+            >
+              <a
+                aria-current="page"
+                class="header__navigation__link header__navigation__link--blog"
+                href="/"
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              class="sc-AxheI cOzwHk"
+            >
+              <a
+                class="header__navigation__link header__navigation__link--about"
+                href="/about"
+              >
+                About me
+              </a>
+            </li>
+          </ul>
+        </nav>
       </header>
     </div>
   </body>,
   "container": <div>
     <header
-      class="header"
+      class="sc-AxiKw dxCGxF header"
     >
       <h1
-        class="sc-AxjAm jUyDew sc-AxirZ iXqYeJ header__title heading heading--h1"
+        class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
       >
         <a
           aria-current="page"
@@ -37,6 +71,40 @@ Object {
           Daniel Calderón
         </a>
       </h1>
+      <nav
+        class="sc-AxhUy kMyssT header__navigation"
+      >
+        <h1
+          class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
+        >
+          Navigation menu
+        </h1>
+        <ul
+          class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+        >
+          <li
+            class="sc-AxheI cOzwHk"
+          >
+            <a
+              aria-current="page"
+              class="header__navigation__link header__navigation__link--blog"
+              href="/"
+            >
+              Blog
+            </a>
+          </li>
+          <li
+            class="sc-AxheI cOzwHk"
+          >
+            <a
+              class="header__navigation__link header__navigation__link--about"
+              href="/about"
+            >
+              About me
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   </div>,
   "debug": [Function],
