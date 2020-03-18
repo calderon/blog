@@ -14,7 +14,7 @@ const srOnly = css`
 
 const srOnlyFocusable = css`
   &:not(:focus) {
-    @include sr-only();
+    ${srOnly};
   }
 `
 
@@ -23,4 +23,20 @@ const skipLink = css`
   ${srOnlyFocusable};
 `
 
-export { srOnly, srOnlyFocusable, skipLink }
+const _breakpoints = {
+  xs: 480,
+  sm: 640,
+  md: 768,
+  lg: 840,
+  xl: 1024,
+}
+
+const devices = {
+  xs: `(min-width: ${_breakpoints.xs}px)`,
+  sm: `(min-width: ${_breakpoints.sm}px)`,
+  md: `(min-width: ${_breakpoints.md}px)`,
+  lg: `(min-width: ${_breakpoints.lg}px)`,
+  xl: `(min-width: ${_breakpoints.xl}px)`,
+}
+
+export { srOnly, srOnlyFocusable, skipLink, devices }
