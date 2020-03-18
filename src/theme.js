@@ -2,14 +2,15 @@ const palette = {
   primary: "#1B325F",
   secondary: "#9CC4E4",
   tertiary: "#E9F2F9",
-  quaternary: "3A89C9",
+  quaternary: "#3A89C9",
   quinary: "#f26c4f",
 }
 
 const colors = {
-  bright: "#fff",
+  bright: "#fdfffc",
   light: "#f2f2f2",
   dark: palette.primary,
+  link: palette.quaternary,
 }
 
 const font = {
@@ -17,12 +18,4 @@ const font = {
   alternative: "'Cooper Hewitt', Arial, sans-serif",
 }
 
-const breakpoints = {
-  xs: 480,
-  s: 640,
-  m: 768,
-  l: 840,
-  xl: 1024,
-}
-
-export default { palette, colors, font, breakpoints }
+export default { palette, colors, font }
