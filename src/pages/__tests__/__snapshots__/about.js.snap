@@ -5,11 +5,215 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="sc-fzpans bAIcEV page"
+      >
+        <header
+          class="sc-AxiKw dxCGxF header"
+        >
+          <h1
+            class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
+          >
+            <a
+              aria-current="page"
+              class="header__title__link"
+              href="/"
+            >
+              Daniel Calderón
+            </a>
+          </h1>
+          <nav
+            class="sc-AxhUy kMyssT header__navigation"
+          >
+            <h1
+              class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
+            >
+              Navigation menu
+            </h1>
+            <ul
+              class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+            >
+              <li
+                class="sc-AxheI cOzwHk"
+              >
+                <a
+                  aria-current="page"
+                  class="header__navigation__link header__navigation__link--blog"
+                  href="/"
+                >
+                  Blog
+                </a>
+              </li>
+              <li
+                class="sc-AxheI cOzwHk"
+              >
+                <a
+                  class="header__navigation__link header__navigation__link--about"
+                  href="/about"
+                >
+                  About me
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <aside
+          class="sc-Axmtr POKFE"
+        >
+          <h1
+            class="sc-AxjAm dxUEld heading heading--h1"
+          >
+            Welcome message
+          </h1>
+          <p>
+            Hi. I’m a 
+            <mark>
+              front-end developer
+            </mark>
+             from Sevilla and this is my personal site.
+          </p>
+          <p>
+            <mark>
+              Be welcome.
+            </mark>
+          </p>
+        </aside>
+        <main
+          class="sc-fzplWN fszGSo main"
+        >
+          <section
+            class="sc-Axmtr MpOCT"
+          >
+            <header
+              class="sc-AxmLO cYEACK"
+            >
+              <h1
+                class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+              >
+                Latest articles
+                 
+                <small>
+                  in my 
+                  <a
+                    aria-current="page"
+                    class=""
+                    href="/"
+                  >
+                    blog
+                  </a>
+                </small>
+              </h1>
+            </header>
+            <div
+              class="sc-fzoLsD cspScf"
+            >
+              <div>
+                This will be a blog post
+              </div>
+              <div>
+                This will be a blog post
+              </div>
+              <div>
+                This will be a blog post
+              </div>
+            </div>
+          </section>
+          <section
+            class="sc-Axmtr fcqoqh"
+          >
+            <header
+              class="sc-AxmLO cYEACK"
+            >
+              <h1
+                class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+              >
+                Contact me
+              </h1>
+            </header>
+            <div
+              class="sc-fzoLsD cspScf"
+            >
+              <p>
+                Take a sit. How can I help you?
+              </p>
+              <div>
+                Your name + Email
+              </div>
+              <div>
+                Your message + Send your message
+              </div>
+            </div>
+          </section>
+          <section
+            class="sc-Axmtr hPKLEL"
+          >
+            <h1
+              class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+            >
+              I'm also in
+            </h1>
+            <ul
+              class="sc-AxirZ QtCRE list"
+            >
+              <li
+                class="sc-fznyAO dJHrAZ"
+              >
+                <a
+                  href="https://github.com/calderon"
+                  rel="me external"
+                  title="github"
+                >
+                  github
+                </a>
+              </li>
+              <li
+                class="sc-fznyAO dJHrAZ"
+              >
+                <a
+                  href="https://twitter.com/dcalderon"
+                  rel="me external"
+                  title="twitter"
+                >
+                  twitter
+                </a>
+              </li>
+              <li
+                class="sc-fznyAO dJHrAZ"
+              >
+                <a
+                  href="http://linkedin.com/in/danielcalderon"
+                  rel="me external"
+                  title="linkedin"
+                >
+                  linkedin
+                </a>
+              </li>
+              <li
+                class="sc-fznyAO dJHrAZ"
+              >
+                <a
+                  href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+                  rel="me external"
+                  title="stack overflow"
+                >
+                  stack overflow
+                </a>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fzpans bAIcEV page"
+    >
       <header
-        class="header"
+        class="sc-AxiKw dxCGxF header"
       >
         <h1
-          class="sc-AxjAm jUyDew sc-AxirZ iXqYeJ header__title heading heading--h1"
+          class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
         >
           <a
             aria-current="page"
@@ -19,67 +223,187 @@ Object {
             Daniel Calderón
           </a>
         </h1>
-      </header>
-      <main>
-        <p>
-          Hello! Welcome to my new coding lab, my own personal site.
-        </p>
-        <p>
-          Here you can see the progress of #100DaysOfGatsby challenges.
-        </p>
-        <p>
-          It is automatically deployed by using github actions.
-        </p>
-        <p>
-          You can find out the project on
-           
-          <a
-            href="https://github.com/calderon/blog"
+        <nav
+          class="sc-AxhUy kMyssT header__navigation"
+        >
+          <h1
+            class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
           >
-            github
-          </a>
-          .
+            Navigation menu
+          </h1>
+          <ul
+            class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+          >
+            <li
+              class="sc-AxheI cOzwHk"
+            >
+              <a
+                aria-current="page"
+                class="header__navigation__link header__navigation__link--blog"
+                href="/"
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              class="sc-AxheI cOzwHk"
+            >
+              <a
+                class="header__navigation__link header__navigation__link--about"
+                href="/about"
+              >
+                About me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <aside
+        class="sc-Axmtr POKFE"
+      >
+        <h1
+          class="sc-AxjAm dxUEld heading heading--h1"
+        >
+          Welcome message
+        </h1>
+        <p>
+          Hi. I’m a 
+          <mark>
+            front-end developer
+          </mark>
+           from Sevilla and this is my personal site.
         </p>
+        <p>
+          <mark>
+            Be welcome.
+          </mark>
+        </p>
+      </aside>
+      <main
+        class="sc-fzplWN fszGSo main"
+      >
+        <section
+          class="sc-Axmtr MpOCT"
+        >
+          <header
+            class="sc-AxmLO cYEACK"
+          >
+            <h1
+              class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+            >
+              Latest articles
+               
+              <small>
+                in my 
+                <a
+                  aria-current="page"
+                  class=""
+                  href="/"
+                >
+                  blog
+                </a>
+              </small>
+            </h1>
+          </header>
+          <div
+            class="sc-fzoLsD cspScf"
+          >
+            <div>
+              This will be a blog post
+            </div>
+            <div>
+              This will be a blog post
+            </div>
+            <div>
+              This will be a blog post
+            </div>
+          </div>
+        </section>
+        <section
+          class="sc-Axmtr fcqoqh"
+        >
+          <header
+            class="sc-AxmLO cYEACK"
+          >
+            <h1
+              class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+            >
+              Contact me
+            </h1>
+          </header>
+          <div
+            class="sc-fzoLsD cspScf"
+          >
+            <p>
+              Take a sit. How can I help you?
+            </p>
+            <div>
+              Your name + Email
+            </div>
+            <div>
+              Your message + Send your message
+            </div>
+          </div>
+        </section>
+        <section
+          class="sc-Axmtr hPKLEL"
+        >
+          <h1
+            class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+          >
+            I'm also in
+          </h1>
+          <ul
+            class="sc-AxirZ QtCRE list"
+          >
+            <li
+              class="sc-fznyAO dJHrAZ"
+            >
+              <a
+                href="https://github.com/calderon"
+                rel="me external"
+                title="github"
+              >
+                github
+              </a>
+            </li>
+            <li
+              class="sc-fznyAO dJHrAZ"
+            >
+              <a
+                href="https://twitter.com/dcalderon"
+                rel="me external"
+                title="twitter"
+              >
+                twitter
+              </a>
+            </li>
+            <li
+              class="sc-fznyAO dJHrAZ"
+            >
+              <a
+                href="http://linkedin.com/in/danielcalderon"
+                rel="me external"
+                title="linkedin"
+              >
+                linkedin
+              </a>
+            </li>
+            <li
+              class="sc-fznyAO dJHrAZ"
+            >
+              <a
+                href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+                rel="me external"
+                title="stack overflow"
+              >
+                stack overflow
+              </a>
+            </li>
+          </ul>
+        </section>
       </main>
     </div>
-  </body>,
-  "container": <div>
-    <header
-      class="header"
-    >
-      <h1
-        class="sc-AxjAm jUyDew sc-AxirZ iXqYeJ header__title heading heading--h1"
-      >
-        <a
-          aria-current="page"
-          class="header__title__link"
-          href="/"
-        >
-          Daniel Calderón
-        </a>
-      </h1>
-    </header>
-    <main>
-      <p>
-        Hello! Welcome to my new coding lab, my own personal site.
-      </p>
-      <p>
-        Here you can see the progress of #100DaysOfGatsby challenges.
-      </p>
-      <p>
-        It is automatically deployed by using github actions.
-      </p>
-      <p>
-        You can find out the project on
-         
-        <a
-          href="https://github.com/calderon/blog"
-        >
-          github
-        </a>
-        .
-      </p>
-    </main>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
