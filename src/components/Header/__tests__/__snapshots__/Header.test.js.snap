@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxiKw dxCGxF header"
+        class="sc-AxiKw eSCqxD header"
       >
         <h1
-          class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
+          class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
         >
           <a
             aria-current="page"
@@ -58,10 +58,10 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-AxiKw dxCGxF header"
+      class="sc-AxiKw eSCqxD header"
     >
       <h1
-        class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
+        class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
       >
         <a
           aria-current="page"
