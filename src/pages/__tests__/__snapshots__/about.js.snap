@@ -9,10 +9,10 @@ Object {
         class="sc-fzplWN bnAGDk page"
       >
         <header
-          class="sc-AxiKw dxCGxF header"
+          class="sc-AxiKw eSCqxD header"
         >
           <h1
-            class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
+            class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
           >
             <a
               aria-current="page"
@@ -77,7 +77,8 @@ Object {
             <mark>
               Javascript
             </mark>
-            , 
+            ,
+             
             <mark>
               React
             </mark>
@@ -186,10 +187,9 @@ Object {
             <ul
               class="sc-AxirZ QtCRE list"
             >
-              <li
-                class="sc-fznKkj csLfrY"
-              >
+              <li>
                 <a
+                  class="sc-fznKkj csLfrY"
                   href="https://github.com/calderon"
                   rel="me external"
                   title="github"
@@ -197,10 +197,9 @@ Object {
                   github
                 </a>
               </li>
-              <li
-                class="sc-fznKkj csLfrY"
-              >
+              <li>
                 <a
+                  class="sc-fznKkj csLfrY"
                   href="https://twitter.com/dcalderon"
                   rel="me external"
                   title="twitter"
@@ -208,10 +207,9 @@ Object {
                   twitter
                 </a>
               </li>
-              <li
-                class="sc-fznKkj csLfrY"
-              >
+              <li>
                 <a
+                  class="sc-fznKkj csLfrY"
                   href="http://linkedin.com/in/danielcalderon"
                   rel="me external"
                   title="linkedin"
@@ -219,10 +217,9 @@ Object {
                   linkedin
                 </a>
               </li>
-              <li
-                class="sc-fznKkj csLfrY"
-              >
+              <li>
                 <a
+                  class="sc-fznKkj csLfrY"
                   href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
                   rel="me external"
                   title="stack overflow"
@@ -285,10 +282,10 @@ Object {
       class="sc-fzplWN bnAGDk page"
     >
       <header
-        class="sc-AxiKw dxCGxF header"
+        class="sc-AxiKw eSCqxD header"
       >
         <h1
-          class="sc-AxjAm sc-AxhCb cfbwFI header__title heading heading--h1"
+          class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
         >
           <a
             aria-current="page"
@@ -353,7 +350,8 @@ Object {
           <mark>
             Javascript
           </mark>
-          , 
+          ,
+           
           <mark>
             React
           </mark>
@@ -462,10 +460,9 @@ Object {
           <ul
             class="sc-AxirZ QtCRE list"
           >
-            <li
-              class="sc-fznKkj csLfrY"
-            >
+            <li>
               <a
+                class="sc-fznKkj csLfrY"
                 href="https://github.com/calderon"
                 rel="me external"
                 title="github"
@@ -473,10 +470,9 @@ Object {
                 github
               </a>
             </li>
-            <li
-              class="sc-fznKkj csLfrY"
-            >
+            <li>
               <a
+                class="sc-fznKkj csLfrY"
                 href="https://twitter.com/dcalderon"
                 rel="me external"
                 title="twitter"
@@ -484,10 +480,9 @@ Object {
                 twitter
               </a>
             </li>
-            <li
-              class="sc-fznKkj csLfrY"
-            >
+            <li>
               <a
+                class="sc-fznKkj csLfrY"
                 href="http://linkedin.com/in/danielcalderon"
                 rel="me external"
                 title="linkedin"
@@ -495,10 +490,9 @@ Object {
                 linkedin
               </a>
             </li>
-            <li
-              class="sc-fznKkj csLfrY"
-            >
+            <li>
               <a
+                class="sc-fznKkj csLfrY"
                 href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
                 rel="me external"
                 title="stack overflow"

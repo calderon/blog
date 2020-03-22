@@ -12,6 +12,9 @@ const StyledHeader = styled.header`
   grid-column-end: 4;
   background-color: ${props => props.theme.colors.bright};
   padding: 0 2.5rem;
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
 
   @media ${devices.lg} {
     padding: 0 5rem;
@@ -25,6 +28,7 @@ const HeaderTitle = styled(Heading)`
   line-height: 1.5;
   text-transform: lowercase;
   margin: 0;
+  flex: 1;
 
   a {
     color: inherit;
