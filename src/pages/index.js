@@ -90,7 +90,7 @@ const Home = props => {
           </ContainerMain>
         </Container>
 
-        <Container main primary>
+        <Container id="contact" main primary>
           <ContainerHeader>
             <ContainerHeading>Contact me</ContainerHeading>
           </ContainerHeader>

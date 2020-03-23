@@ -2,7 +2,13 @@ import React, { useState, useLayoutEffect } from "react"
 import styled from "styled-components"
 import { rgba } from "polished"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+import {
+  faBars,
+  faTimesCircle,
+  faNewspaper,
+  faAddressCard,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons"
 
 import { devices } from "../../assets/styles/helpers"
 
@@ -90,6 +96,17 @@ const HeaderMenuItem = styled.li`
     margin-right: 2.5rem;
     display: inline;
     margin-bottom: 0;
+  }
+
+  .header__navigation__link__icon {
+    display: none;
+
+    @media ${devices.lg} {
+      display: inline-block;
+      font-size: 2.4rem;
+      vertical-align: middle;
+      margin-right: 1rem;
+    }
   }
 `
 
@@ -208,6 +225,10 @@ const Header = props => {
               className="header__navigation__link header__navigation__link--blog"
               to="/blog"
             >
+              <FontAwesomeIcon
+                icon={faNewspaper}
+                className="header__navigation__link__icon"
+              />
               Blog
             </Link>
           </HeaderMenuItem>
@@ -216,7 +237,23 @@ const Header = props => {
               className="header__navigation__link header__navigation__link--about"
               to="/about"
             >
+              <FontAwesomeIcon
+                icon={faAddressCard}
+                className="header__navigation__link__icon"
+              />
               About me
+            </Link>
+          </HeaderMenuItem>
+          <HeaderMenuItem>
+            <Link
+              className="header__navigation__link header__navigation__link--contact"
+              to="#contact"
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="header__navigation__link__icon"
+              />
+              contact
             </Link>
           </HeaderMenuItem>
         </HeaderMenu>
