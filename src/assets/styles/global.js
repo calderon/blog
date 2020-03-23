@@ -30,14 +30,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  a {
-    color: ${props => props.theme.palette.quaternary};
-
-    &:hover {
-      color: ${props => props.theme.palette.quinary};
-    }
-  }
-
   .copyright {
     display: inline-block;
   }

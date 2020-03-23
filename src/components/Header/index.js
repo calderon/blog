@@ -1,10 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { devices } from "../../assets/styles/helpers"
 
 import Heading from "../Heading"
+import { Link, AnchorLink, AnchorLinkText } from "../Link"
 import List from "../List"
 
 const StyledHeader = styled.header`
@@ -15,6 +17,8 @@ const StyledHeader = styled.header`
   height: 7.5rem;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
 
   @media ${devices.lg} {
     padding: 0 5rem;
@@ -37,6 +41,7 @@ const HeaderTitle = styled(Heading)`
 `
 
 const HeaderNavigation = styled.nav``
+
 const HeaderMenu = styled(List)`
   & > li {
     margin-bottom: 1.25rem;
@@ -58,10 +63,6 @@ const HeaderMenuItem = styled.li`
   @media ${devices.lg} {
     margin-right: 2.5rem;
   }
-
-  .header__navigation__link {
-    color: ${props => props.theme.colors.link};
-  }
 `
 
 const Header = props => {
@@ -74,11 +75,20 @@ const Header = props => {
       </HeaderTitle>
 
       <HeaderNavigation className="header__navigation">
+        <AnchorLink to="#headerMenu" hiddenFrom="md">
+          <AnchorLinkText>Go to navigation menu</AnchorLinkText>
+          <FontAwesomeIcon icon={faBars} />
+        </AnchorLink>
+
         <Heading className="header__navigation_title" srOnly>
           Navigation menu
         </Heading>
 
-        <HeaderMenu className="header__navigation__list" unstyled>
+        <HeaderMenu
+          id="headerMenu"
+          className="header__navigation__list"
+          unstyled
+        >
           <HeaderMenuItem>
             <Link
               className="header__navigation__link header__navigation__link--blog"

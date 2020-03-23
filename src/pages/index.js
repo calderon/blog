@@ -1,6 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
+
+import { devices } from "../assets/styles/helpers"
 
 import Layout from "../components/layoutDefault"
 import Heading from "../components/Heading"
@@ -12,6 +13,17 @@ import {
   ContainerColumn,
 } from "../components/Container"
 import List from "../components/List"
+import { Link, ExternalLink } from "../components/Link"
+
+const FirstContainer = styled(Container)`
+  padding-top: 4.5rem;
+  padding-bottom: 6rem;
+
+  @media ${devices.lg} {
+    padding-top: 9rem;
+    padding-bottom: 11.5rem;
+  }
+`
 
 const Main = styled.main.attrs(props => ({
   className: "main",
@@ -21,7 +33,7 @@ const Main = styled.main.attrs(props => ({
   display: grid;
 `
 
-const StyledExternalLink = styled.a`
+const StyledExternalLinkItem = styled.li`
   font-weight: 700;
 
   &::after {
@@ -36,22 +48,18 @@ const StyledExternalLink = styled.a`
   }
 `
 
-const ExternalLink = props => {
+const ExternalLinkItem = props => {
   return (
-    <StyledExternalLink
-      href={props.url}
-      rel="me external"
-      title={props.children}
-    >
-      {props.children}
-    </StyledExternalLink>
+    <StyledExternalLinkItem>
+      <ExternalLink {...props} />
+    </StyledExternalLinkItem>
   )
 }
 
 const Home = props => {
   return (
     <Layout>
-      <Container as="aside" bright role="banner">
+      <FirstContainer as="aside" bright role="banner">
         <Heading srOnly>Welcome message</Heading>
         <p>
           Hi. I’m a <mark>front-end developer</mark> from Sevilla.
@@ -62,7 +70,7 @@ const Home = props => {
         <p>
           <mark>Be welcome.</mark>
         </p>
-      </Container>
+      </FirstContainer>
 
       <Main>
         <Container main tertiary role="complementary">
@@ -98,26 +106,29 @@ const Home = props => {
         <Container main bright inline role="contentinfo">
           <ContainerHeading>I'm also in</ContainerHeading>
           <List unstyled inlineBlock>
-            <li>
-              <ExternalLink url="https://github.com/calderon">
-                github
-              </ExternalLink>
-            </li>
-            <li>
-              <ExternalLink url="https://twitter.com/dcalderon">
-                twitter
-              </ExternalLink>
-            </li>
-            <li>
-              <ExternalLink url="http://linkedin.com/in/danielcalderon">
-                linkedin
-              </ExternalLink>
-            </li>
-            <li>
-              <ExternalLink url="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo">
-                stack overflow
-              </ExternalLink>
-            </li>
+            <ExternalLinkItem
+              to="https://github.com/calderon"
+              title="github"
+              me
+            />
+
+            <ExternalLinkItem
+              to="https://twitter.com/dcalderon"
+              title="twitter"
+              me
+            />
+
+            <ExternalLinkItem
+              to="http://linkedin.com/in/danielcalderon"
+              title="linkedin"
+              me
+            />
+
+            <ExternalLinkItem
+              to="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+              title="stack overflow"
+              me
+            />
           </List>
         </Container>
       </Main>

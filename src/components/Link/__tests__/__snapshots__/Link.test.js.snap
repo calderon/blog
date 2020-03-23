@@ -1,18 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading renders correctly 1`] = `
+exports[`Link renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <h1
-        class="sc-AxjAm gDCznD heading heading--h1"
+      <a
+        class="sc-AxjAm cKJguM"
+        href=""
       />
     </div>
   </body>,
   "container": <div>
-    <h1
-      class="sc-AxjAm gDCznD heading heading--h1"
+    <a
+      class="sc-AxjAm cKJguM"
+      href=""
     />
   </div>,
   "debug": [Function],
