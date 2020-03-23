@@ -78,7 +78,7 @@ const Home = props => {
             <ContainerHeading>
               Latest articles{" "}
               <small>
-                in my <Link to="/">blog</Link>
+                in my <Link to="/blog">blog</Link>
               </small>
             </ContainerHeading>
           </ContainerHeader>

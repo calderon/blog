@@ -33,6 +33,10 @@ const GlobalStyle = createGlobalStyle`
   .copyright {
     display: inline-block;
   }
+
+  .unscrolled {
+    overflow: hidden;
+  }
 `
 
 export default GlobalStyle

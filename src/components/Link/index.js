@@ -53,18 +53,20 @@ const CustomLink = ({
 const AnchorLinkText = styled.span``
 
 const StyledAnchor = styled(StyledLink)`
-  @media ${props => devices[props.hiddenFrom || "lg"]} {
-    display: none;
-  }
+  cursor: pointer;
+
+  ${props =>
+    props.hiddenFrom &&
+    css`
+      @media ${props => devices[props.hiddenFrom]} {
+        display: none;
+      }
+    `}
 
   ${AnchorLinkText} {
     ${srOnly};
   }
 `
-
-const AnchorLink = props => {
-  return <StyledAnchor {...props} />
-}
 
 const ExternalLink = props => {
   return (
@@ -74,4 +76,9 @@ const ExternalLink = props => {
   )
 }
 
-export { CustomLink as Link, ExternalLink, AnchorLink, AnchorLinkText }
+export {
+  CustomLink as Link,
+  ExternalLink,
+  StyledAnchor as AnchorLink,
+  AnchorLinkText,
+}
