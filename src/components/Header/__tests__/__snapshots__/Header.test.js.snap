@@ -6,46 +6,72 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxiKw eSCqxD header"
+        class="sc-AxheI kcIXYn header"
       >
         <h1
-          class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
+          class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
         >
           <a
             aria-current="page"
-            class="header__title__link"
+            class="sc-AxiKw LcKoT header__title__link"
             href="/"
           >
             Daniel Calderón
           </a>
         </h1>
         <nav
-          class="sc-AxhUy kMyssT header__navigation"
+          class="sc-AxmLO cAKCgh header__navigation"
         >
+          <a
+            class="sc-AxirZ sc-AxhUy elAOwC"
+            to="#headerMenu"
+          >
+            <span
+              class="sc-AxhCb ccMvAG"
+            >
+              Go to navigation menu
+            </span>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-bars fa-w-14 "
+              data-icon="bars"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
           <h1
             class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
           >
             Navigation menu
           </h1>
           <ul
-            class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+            class="sc-AxgMl sc-fzozJi gokLcC header__navigation__list list"
+            id="headerMenu"
           >
             <li
-              class="sc-AxheI cOzwHk"
+              class="sc-fzoLsD ilrTIV"
             >
               <a
                 aria-current="page"
-                class="header__navigation__link header__navigation__link--blog"
+                class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
                 href="/"
               >
                 Blog
               </a>
             </li>
             <li
-              class="sc-AxheI cOzwHk"
+              class="sc-fzoLsD ilrTIV"
             >
               <a
-                class="header__navigation__link header__navigation__link--about"
+                class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
                 href="/about"
               >
                 About me
@@ -58,46 +84,72 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-AxiKw eSCqxD header"
+      class="sc-AxheI kcIXYn header"
     >
       <h1
-        class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
+        class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
       >
         <a
           aria-current="page"
-          class="header__title__link"
+          class="sc-AxiKw LcKoT header__title__link"
           href="/"
         >
           Daniel Calderón
         </a>
       </h1>
       <nav
-        class="sc-AxhUy kMyssT header__navigation"
+        class="sc-AxmLO cAKCgh header__navigation"
       >
+        <a
+          class="sc-AxirZ sc-AxhUy elAOwC"
+          to="#headerMenu"
+        >
+          <span
+            class="sc-AxhCb ccMvAG"
+          >
+            Go to navigation menu
+          </span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-bars fa-w-14 "
+            data-icon="bars"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
         <h1
           class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
         >
           Navigation menu
         </h1>
         <ul
-          class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+          class="sc-AxgMl sc-fzozJi gokLcC header__navigation__list list"
+          id="headerMenu"
         >
           <li
-            class="sc-AxheI cOzwHk"
+            class="sc-fzoLsD ilrTIV"
           >
             <a
               aria-current="page"
-              class="header__navigation__link header__navigation__link--blog"
+              class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
               href="/"
             >
               Blog
             </a>
           </li>
           <li
-            class="sc-AxheI cOzwHk"
+            class="sc-fzoLsD ilrTIV"
           >
             <a
-              class="header__navigation__link header__navigation__link--about"
+              class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
               href="/about"
             >
               About me

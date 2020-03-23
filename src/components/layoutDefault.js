@@ -5,8 +5,9 @@ import "normalize.css"
 import theme from "../theme"
 import GlobalStyle from "../assets/styles/global"
 
-import Header from "../components/Header"
-import Heading from "../components/Heading"
+import Header from "./Header"
+import Heading from "./Heading"
+import { ExternalLink } from "./Link"
 import { Container, ContainerMain, ContainerColumn } from "./Container"
 
 const Page = styled.div.attrs(props => ({
@@ -31,10 +32,14 @@ const LayoutDefault = ({ children }) => {
           <ContainerMain columnize={2}>
             <ContainerColumn>
               <p>
-                This blog is made with <a href="external">gatsby</a>, hosted in{" "}
-                <a href="https://github.com/calderon/blog" rel="me external">
-                  github
-                </a>{" "}
+                This blog is made with{" "}
+                <ExternalLink to="https://www.gatsbyjs.org/" title="gatsby" />,
+                hosted in{" "}
+                <ExternalLink
+                  to="https://github.com/calderon/blog"
+                  title="github"
+                  me
+                />{" "}
                 and deployed using github actions.
               </p>
             </ContainerColumn>

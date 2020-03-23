@@ -6,49 +6,75 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-fzplWN bnAGDk page"
+        class="sc-fzokOt bowPTa page"
       >
         <header
-          class="sc-AxiKw eSCqxD header"
+          class="sc-AxheI kcIXYn header"
         >
           <h1
-            class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
+            class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
           >
             <a
               aria-current="page"
-              class="header__title__link"
+              class="sc-AxiKw LcKoT header__title__link"
               href="/"
             >
               Daniel Calderón
             </a>
           </h1>
           <nav
-            class="sc-AxhUy kMyssT header__navigation"
+            class="sc-AxmLO cAKCgh header__navigation"
           >
+            <a
+              class="sc-AxirZ sc-AxhUy elAOwC"
+              to="#headerMenu"
+            >
+              <span
+                class="sc-AxhCb ccMvAG"
+              >
+                Go to navigation menu
+              </span>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bars fa-w-14 "
+                data-icon="bars"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
             <h1
               class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
             >
               Navigation menu
             </h1>
             <ul
-              class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+              class="sc-AxgMl sc-fzozJi gokLcC header__navigation__list list"
+              id="headerMenu"
             >
               <li
-                class="sc-AxheI cOzwHk"
+                class="sc-fzoLsD ilrTIV"
               >
                 <a
                   aria-current="page"
-                  class="header__navigation__link header__navigation__link--blog"
+                  class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
                   href="/"
                 >
                   Blog
                 </a>
               </li>
               <li
-                class="sc-AxheI cOzwHk"
+                class="sc-fzoLsD ilrTIV"
               >
                 <a
-                  class="header__navigation__link header__navigation__link--about"
+                  class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
                   href="/about"
                 >
                   About me
@@ -58,7 +84,7 @@ Object {
           </nav>
         </header>
         <aside
-          class="sc-Axmtr jAxWcK"
+          class="sc-fzpans sc-fzqBZW cDfKOc"
           role="banner"
         >
           <h1
@@ -95,17 +121,17 @@ Object {
           </p>
         </aside>
         <main
-          class="sc-fznyAO bbVNZw main"
+          class="sc-fzqNJr jRqpNG main"
         >
           <section
-            class="sc-Axmtr bzxlwt"
+            class="sc-fzpans kEjOsX"
             role="complementary"
           >
             <header
-              class="sc-AxmLO cYEACK"
+              class="sc-fzplWN gwLoEI"
             >
               <h1
-                class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+                class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
               >
                 Latest articles
                  
@@ -113,7 +139,7 @@ Object {
                   in my 
                   <a
                     aria-current="page"
-                    class=""
+                    class="sc-AxiKw LcKoT"
                     href="/"
                   >
                     blog
@@ -122,106 +148,114 @@ Object {
               </h1>
             </header>
             <div
-              class="sc-fzoLsD ZGMoS"
+              class="sc-fznKkj eiRPwi"
             >
               <div
-                class="sc-fzpans bxsNfO"
+                class="sc-fznZeY ctNIfu"
               >
                 This will be a blog post
               </div>
               <div
-                class="sc-fzpans bxsNfO"
+                class="sc-fznZeY ctNIfu"
               >
                 This will be a blog post
               </div>
               <div
-                class="sc-fzpans bxsNfO"
+                class="sc-fznZeY ctNIfu"
               >
                 This will be a blog post
               </div>
             </div>
           </section>
           <section
-            class="sc-Axmtr dgGCdp"
+            class="sc-fzpans bxwNYX"
           >
             <header
-              class="sc-AxmLO cYEACK"
+              class="sc-fzplWN gwLoEI"
             >
               <h1
-                class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+                class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
               >
                 Contact me
               </h1>
             </header>
             <div
-              class="sc-fzoLsD ZGMoS"
+              class="sc-fznKkj eiRPwi"
             >
               <div
-                class="sc-fzpans bxsNfO"
+                class="sc-fznZeY ctNIfu"
               >
                 <p>
                   Take a sit. How can I help you?
                 </p>
               </div>
               <div
-                class="sc-fzpans bxsNfO"
+                class="sc-fznZeY ctNIfu"
               >
                 Your name + Email
               </div>
               <div
-                class="sc-fzpans bxsNfO"
+                class="sc-fznZeY ctNIfu"
               >
                 Your message + Send your message
               </div>
             </div>
           </section>
           <section
-            class="sc-Axmtr kKThAj"
+            class="sc-fzpans fkvCEl"
             role="contentinfo"
           >
             <h1
-              class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+              class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
             >
               I'm also in
             </h1>
             <ul
-              class="sc-AxirZ QtCRE list"
+              class="sc-AxgMl iAnzxH list"
             >
-              <li>
+              <li
+                class="sc-fzoyAV fgcDZh"
+              >
                 <a
-                  class="sc-fznKkj csLfrY"
+                  class="sc-AxirZ cSARNv"
                   href="https://github.com/calderon"
-                  rel="me external"
+                  rel="external me"
                   title="github"
                 >
                   github
                 </a>
               </li>
-              <li>
+              <li
+                class="sc-fzoyAV fgcDZh"
+              >
                 <a
-                  class="sc-fznKkj csLfrY"
+                  class="sc-AxirZ cSARNv"
                   href="https://twitter.com/dcalderon"
-                  rel="me external"
+                  rel="external me"
                   title="twitter"
                 >
                   twitter
                 </a>
               </li>
-              <li>
+              <li
+                class="sc-fzoyAV fgcDZh"
+              >
                 <a
-                  class="sc-fznKkj csLfrY"
+                  class="sc-AxirZ cSARNv"
                   href="http://linkedin.com/in/danielcalderon"
-                  rel="me external"
+                  rel="external me"
                   title="linkedin"
                 >
                   linkedin
                 </a>
               </li>
-              <li>
+              <li
+                class="sc-fzoyAV fgcDZh"
+              >
                 <a
-                  class="sc-fznKkj csLfrY"
+                  class="sc-AxirZ cSARNv"
                   href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
-                  rel="me external"
+                  rel="external me"
                   title="stack overflow"
                 >
                   stack overflow
@@ -231,26 +265,32 @@ Object {
           </section>
         </main>
         <footer
-          class="sc-Axmtr kNhsEL"
+          class="sc-fzpans bekeyF"
         >
           <div
-            class="sc-fzoLsD keKnWY"
+            class="sc-fznKkj hCHeFQ"
           >
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               <p>
-                This blog is made with 
+                This blog is made with
+                 
                 <a
-                  href="external"
+                  class="sc-AxirZ cSARNv"
+                  href="https://www.gatsbyjs.org/"
+                  rel="external "
+                  title="gatsby"
                 >
                   gatsby
                 </a>
                 , hosted in
                  
                 <a
+                  class="sc-AxirZ cSARNv"
                   href="https://github.com/calderon/blog"
-                  rel="me external"
+                  rel="external me"
+                  title="github"
                 >
                   github
                 </a>
@@ -259,7 +299,7 @@ Object {
               </p>
             </div>
             <div
-              class="sc-fzpans huGKry"
+              class="sc-fznZeY mdqQG"
               opacity=".6"
             >
               <p>
@@ -279,49 +319,75 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-fzplWN bnAGDk page"
+      class="sc-fzokOt bowPTa page"
     >
       <header
-        class="sc-AxiKw eSCqxD header"
+        class="sc-AxheI kcIXYn header"
       >
         <h1
-          class="sc-AxjAm sc-AxhCb gdZBxN header__title heading heading--h1"
+          class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
         >
           <a
             aria-current="page"
-            class="header__title__link"
+            class="sc-AxiKw LcKoT header__title__link"
             href="/"
           >
             Daniel Calderón
           </a>
         </h1>
         <nav
-          class="sc-AxhUy kMyssT header__navigation"
+          class="sc-AxmLO cAKCgh header__navigation"
         >
+          <a
+            class="sc-AxirZ sc-AxhUy elAOwC"
+            to="#headerMenu"
+          >
+            <span
+              class="sc-AxhCb ccMvAG"
+            >
+              Go to navigation menu
+            </span>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-bars fa-w-14 "
+              data-icon="bars"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
           <h1
             class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
           >
             Navigation menu
           </h1>
           <ul
-            class="sc-AxirZ sc-AxgMl loCSKX header__navigation__list list"
+            class="sc-AxgMl sc-fzozJi gokLcC header__navigation__list list"
+            id="headerMenu"
           >
             <li
-              class="sc-AxheI cOzwHk"
+              class="sc-fzoLsD ilrTIV"
             >
               <a
                 aria-current="page"
-                class="header__navigation__link header__navigation__link--blog"
+                class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
                 href="/"
               >
                 Blog
               </a>
             </li>
             <li
-              class="sc-AxheI cOzwHk"
+              class="sc-fzoLsD ilrTIV"
             >
               <a
-                class="header__navigation__link header__navigation__link--about"
+                class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
                 href="/about"
               >
                 About me
@@ -331,7 +397,7 @@ Object {
         </nav>
       </header>
       <aside
-        class="sc-Axmtr jAxWcK"
+        class="sc-fzpans sc-fzqBZW cDfKOc"
         role="banner"
       >
         <h1
@@ -368,17 +434,17 @@ Object {
         </p>
       </aside>
       <main
-        class="sc-fznyAO bbVNZw main"
+        class="sc-fzqNJr jRqpNG main"
       >
         <section
-          class="sc-Axmtr bzxlwt"
+          class="sc-fzpans kEjOsX"
           role="complementary"
         >
           <header
-            class="sc-AxmLO cYEACK"
+            class="sc-fzplWN gwLoEI"
           >
             <h1
-              class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+              class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
             >
               Latest articles
                
@@ -386,7 +452,7 @@ Object {
                 in my 
                 <a
                   aria-current="page"
-                  class=""
+                  class="sc-AxiKw LcKoT"
                   href="/"
                 >
                   blog
@@ -395,106 +461,114 @@ Object {
             </h1>
           </header>
           <div
-            class="sc-fzoLsD ZGMoS"
+            class="sc-fznKkj eiRPwi"
           >
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               This will be a blog post
             </div>
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               This will be a blog post
             </div>
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               This will be a blog post
             </div>
           </div>
         </section>
         <section
-          class="sc-Axmtr dgGCdp"
+          class="sc-fzpans bxwNYX"
         >
           <header
-            class="sc-AxmLO cYEACK"
+            class="sc-fzplWN gwLoEI"
           >
             <h1
-              class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+              class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
             >
               Contact me
             </h1>
           </header>
           <div
-            class="sc-fzoLsD ZGMoS"
+            class="sc-fznKkj eiRPwi"
           >
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               <p>
                 Take a sit. How can I help you?
               </p>
             </div>
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               Your name + Email
             </div>
             <div
-              class="sc-fzpans bxsNfO"
+              class="sc-fznZeY ctNIfu"
             >
               Your message + Send your message
             </div>
           </div>
         </section>
         <section
-          class="sc-Axmtr kKThAj"
+          class="sc-fzpans fkvCEl"
           role="contentinfo"
         >
           <h1
-            class="sc-AxjAm sc-fzozJi hrKgmV heading heading--h1"
+            class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
           >
             I'm also in
           </h1>
           <ul
-            class="sc-AxirZ QtCRE list"
+            class="sc-AxgMl iAnzxH list"
           >
-            <li>
+            <li
+              class="sc-fzoyAV fgcDZh"
+            >
               <a
-                class="sc-fznKkj csLfrY"
+                class="sc-AxirZ cSARNv"
                 href="https://github.com/calderon"
-                rel="me external"
+                rel="external me"
                 title="github"
               >
                 github
               </a>
             </li>
-            <li>
+            <li
+              class="sc-fzoyAV fgcDZh"
+            >
               <a
-                class="sc-fznKkj csLfrY"
+                class="sc-AxirZ cSARNv"
                 href="https://twitter.com/dcalderon"
-                rel="me external"
+                rel="external me"
                 title="twitter"
               >
                 twitter
               </a>
             </li>
-            <li>
+            <li
+              class="sc-fzoyAV fgcDZh"
+            >
               <a
-                class="sc-fznKkj csLfrY"
+                class="sc-AxirZ cSARNv"
                 href="http://linkedin.com/in/danielcalderon"
-                rel="me external"
+                rel="external me"
                 title="linkedin"
               >
                 linkedin
               </a>
             </li>
-            <li>
+            <li
+              class="sc-fzoyAV fgcDZh"
+            >
               <a
-                class="sc-fznKkj csLfrY"
+                class="sc-AxirZ cSARNv"
                 href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
-                rel="me external"
+                rel="external me"
                 title="stack overflow"
               >
                 stack overflow
@@ -504,26 +578,32 @@ Object {
         </section>
       </main>
       <footer
-        class="sc-Axmtr kNhsEL"
+        class="sc-fzpans bekeyF"
       >
         <div
-          class="sc-fzoLsD keKnWY"
+          class="sc-fznKkj hCHeFQ"
         >
           <div
-            class="sc-fzpans bxsNfO"
+            class="sc-fznZeY ctNIfu"
           >
             <p>
-              This blog is made with 
+              This blog is made with
+               
               <a
-                href="external"
+                class="sc-AxirZ cSARNv"
+                href="https://www.gatsbyjs.org/"
+                rel="external "
+                title="gatsby"
               >
                 gatsby
               </a>
               , hosted in
                
               <a
+                class="sc-AxirZ cSARNv"
                 href="https://github.com/calderon/blog"
-                rel="me external"
+                rel="external me"
+                title="github"
               >
                 github
               </a>
@@ -532,7 +612,7 @@ Object {
             </p>
           </div>
           <div
-            class="sc-fzpans huGKry"
+            class="sc-fznZeY mdqQG"
             opacity=".6"
           >
             <p>
