@@ -20,5 +20,8 @@
     "[json]": {
       "editor.formatOnSave": true
     },
+    "search.exclude": {
+      "**/__snapshots__": true
+    }
   }
 }
