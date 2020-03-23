@@ -1,15 +1,18 @@
-import React from "react"
+import React, { useState, useLayoutEffect } from "react"
 import styled from "styled-components"
-
+import { rgba } from "polished"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+
 import { devices } from "../../assets/styles/helpers"
 
 import Heading from "../Heading"
 import { Link, AnchorLink, AnchorLinkText } from "../Link"
 import List from "../List"
 
-const StyledHeader = styled.header`
+const StyledHeader = styled.header.attrs(props => ({
+  className: "header",
+}))`
   grid-column-start: 1;
   grid-column-end: 4;
   background-color: ${props => props.theme.colors.bright};
@@ -22,6 +25,37 @@ const StyledHeader = styled.header`
 
   @media ${devices.lg} {
     padding: 0 5rem;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    height: 0.1rem;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100%;
+  }
+
+  &::before {
+    left: 50%;
+    right: 50%;
+    transition: left 300ms;
+  }
+
+  &::after {
+    left: 50%;
+    right: 50%;
+    transition: right 300ms;
+  }
+
+  &.header--scrolled {
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
+    }
   }
 `
 
@@ -40,34 +74,109 @@ const HeaderTitle = styled(Heading)`
   }
 `
 
-const HeaderNavigation = styled.nav``
+const HeaderMenu = styled(List)``
 
-const HeaderMenu = styled(List)`
-  & > li {
-    margin-bottom: 1.25rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    @media ${devices.lg} {
-      display: inline;
-      margin-bottom: 0;
-    }
-  }
-`
 const HeaderMenuItem = styled.li`
-  font-size: 1.6rem;
+  font-size: 3rem;
   text-transform: lowercase;
+  margin-bottom: 1.25rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   @media ${devices.lg} {
+    font-size: 1.6rem;
     margin-right: 2.5rem;
+    display: inline;
+    margin-bottom: 0;
+  }
+`
+
+const HeaderNavigation = styled.nav`
+  &:not(.header__navigation--menuVisible) {
+    .header__navigation__anchor--hideMenu {
+      display: none;
+    }
+  }
+
+  &.header__navigation--menuVisible {
+    .header__navigation__anchor--showMenu {
+      display: none;
+    }
+
+    ${HeaderMenu} {
+      display: block;
+      text-align: center;
+      background: ${props => rgba(props.theme.colors.bright, 0.95)};
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 7.5rem 5rem 5rem 5rem;
+    }
+  }
+
+  ${HeaderMenu} {
+    display: none;
+
+    @media ${devices.lg} {
+      display: block;
+    }
+  }
+
+  ${AnchorLink} {
+    font-size: 2.4rem;
+    color: ${props => props.theme.palette.primary};
+
+    &:hover {
+      color: ${props => props.theme.palette.quinary};
+    }
+  }
+
+  .header__navigation__anchor--hideMenu {
+    position: relative;
   }
 `
 
 const Header = props => {
+  const [scrolled, setScrolled] = useState(false)
+
+  useLayoutEffect(() => {
+    const handleScroll = e => {
+      setScrolled(window.scrollY > 0)
+    }
+
+    window.addEventListener("scroll", handleScroll)
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
+  const handleShowMenu = e => {
+    e.preventDefault()
+
+    document
+      .querySelector(".header__navigation")
+      .classList.add("header__navigation--menuVisible")
+
+    document.body.classList.add("unscrolled")
+  }
+
+  const handleCloseMenu = e => {
+    e.preventDefault()
+
+    document
+      .querySelector(".header__navigation")
+      .classList.remove("header__navigation--menuVisible")
+
+    document.body.classList.remove("unscrolled")
+  }
+
   return (
-    <StyledHeader className="header">
+    <StyledHeader className={scrolled ? "header--scrolled" : ""}>
       <HeaderTitle className="header__title">
         <Link className="header__title__link" to="/">
           Daniel Calderón
@@ -75,7 +184,12 @@ const Header = props => {
       </HeaderTitle>
 
       <HeaderNavigation className="header__navigation">
-        <AnchorLink to="#headerMenu" hiddenFrom="md">
+        <AnchorLink
+          to="#headerMenu"
+          className="header__navigation__anchor header__navigation__anchor--showMenu"
+          hiddenFrom="lg"
+          onClick={handleShowMenu}
+        >
           <AnchorLinkText>Go to navigation menu</AnchorLinkText>
           <FontAwesomeIcon icon={faBars} />
         </AnchorLink>
@@ -92,7 +206,7 @@ const Header = props => {
           <HeaderMenuItem>
             <Link
               className="header__navigation__link header__navigation__link--blog"
-              to="/"
+              to="/blog"
             >
               Blog
             </Link>
@@ -106,6 +220,16 @@ const Header = props => {
             </Link>
           </HeaderMenuItem>
         </HeaderMenu>
+
+        <AnchorLink
+          to="#headerMenu"
+          className="header__navigation__anchor header__navigation__anchor--hideMenu"
+          hiddenFrom="lg"
+          onClick={handleCloseMenu}
+        >
+          <AnchorLinkText>Go up</AnchorLinkText>
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </AnchorLink>
       </HeaderNavigation>
     </StyledHeader>
   )

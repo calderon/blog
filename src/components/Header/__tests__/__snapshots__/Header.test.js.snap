@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxheI kcIXYn header"
+        class="sc-AxheI jXGDfO header"
       >
         <h1
           class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
@@ -20,10 +20,10 @@ Object {
           </a>
         </h1>
         <nav
-          class="sc-AxmLO cAKCgh header__navigation"
+          class="sc-fzoLsD ypmdL header__navigation"
         >
           <a
-            class="sc-AxirZ sc-AxhUy elAOwC"
+            class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--showMenu"
             to="#headerMenu"
           >
             <span
@@ -53,22 +53,21 @@ Object {
             Navigation menu
           </h1>
           <ul
-            class="sc-AxgMl sc-fzozJi gokLcC header__navigation__list list"
+            class="sc-AxgMl sc-AxmLO cahYMx header__navigation__list list"
             id="headerMenu"
           >
             <li
-              class="sc-fzoLsD ilrTIV"
+              class="sc-fzozJi kBScuC"
             >
               <a
-                aria-current="page"
                 class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
-                href="/"
+                href="/blog"
               >
                 Blog
               </a>
             </li>
             <li
-              class="sc-fzoLsD ilrTIV"
+              class="sc-fzozJi kBScuC"
             >
               <a
                 class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
@@ -78,13 +77,38 @@ Object {
               </a>
             </li>
           </ul>
+          <a
+            class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--hideMenu"
+            to="#headerMenu"
+          >
+            <span
+              class="sc-AxhCb ccMvAG"
+            >
+              Go up
+            </span>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-times-circle fa-w-16 "
+              data-icon="times-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
         </nav>
       </header>
     </div>
   </body>,
   "container": <div>
     <header
-      class="sc-AxheI kcIXYn header"
+      class="sc-AxheI jXGDfO header"
     >
       <h1
         class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
@@ -98,10 +122,10 @@ Object {
         </a>
       </h1>
       <nav
-        class="sc-AxmLO cAKCgh header__navigation"
+        class="sc-fzoLsD ypmdL header__navigation"
       >
         <a
-          class="sc-AxirZ sc-AxhUy elAOwC"
+          class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--showMenu"
           to="#headerMenu"
         >
           <span
@@ -131,22 +155,21 @@ Object {
           Navigation menu
         </h1>
         <ul
-          class="sc-AxgMl sc-fzozJi gokLcC header__navigation__list list"
+          class="sc-AxgMl sc-AxmLO cahYMx header__navigation__list list"
           id="headerMenu"
         >
           <li
-            class="sc-fzoLsD ilrTIV"
+            class="sc-fzozJi kBScuC"
           >
             <a
-              aria-current="page"
               class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
-              href="/"
+              href="/blog"
             >
               Blog
             </a>
           </li>
           <li
-            class="sc-fzoLsD ilrTIV"
+            class="sc-fzozJi kBScuC"
           >
             <a
               class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
@@ -156,6 +179,31 @@ Object {
             </a>
           </li>
         </ul>
+        <a
+          class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--hideMenu"
+          to="#headerMenu"
+        >
+          <span
+            class="sc-AxhCb ccMvAG"
+          >
+            Go up
+          </span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-times-circle fa-w-16 "
+            data-icon="times-circle"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
       </nav>
     </header>
   </div>,
