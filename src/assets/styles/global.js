@@ -1,6 +1,14 @@
+import { config, dom } from "@fortawesome/fontawesome-svg-core"
+config.autoAddCss = false
+
 import { createGlobalStyle } from "styled-components"
+import { normalize } from "styled-normalize"
 
 const GlobalStyle = createGlobalStyle`
+  ${normalize}
+
+  ${dom.css()}
+
   * {
     &,
     &::before,

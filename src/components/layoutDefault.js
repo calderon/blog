@@ -1,6 +1,5 @@
 import React from "react"
 import styled, { ThemeProvider } from "styled-components"
-import "normalize.css"
 
 import theme from "../theme"
 import GlobalStyle from "../assets/styles/global"
