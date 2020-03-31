@@ -35,17 +35,25 @@ const CustomLink = ({
 
   const isInternal = to && /^\/(?!\/)/.test(to)
 
+  if ("target" in other && other.target === "_blank") {
+    let rel = new Set(other.hasOwnProperty(rel) ? other.rel.split(" ") : [])
+    rel.add("external")
+    rel.add("noopener")
+    rel.add("noreferrer")
+    other.rel = [...rel].join(" ")
+  }
+
   if (isInternal) {
     return (
       <StyledInternalLink to={to} {...other}>
-        {children}
+        {children ? children : other.title ? other.title : ""}
       </StyledInternalLink>
     )
   }
 
   return (
     <StyledLink href={to} {...other}>
-      {children}
+      {children ? children : other.title ? other.title : ""}
     </StyledLink>
   )
 }
@@ -68,17 +76,4 @@ const StyledAnchor = styled(StyledLink)`
   }
 `
 
-const ExternalLink = props => {
-  return (
-    <CustomLink rel={`external ${props.me ? "me" : ""}`} {...props}>
-      {props.children ? props.children : props.title}
-    </CustomLink>
-  )
-}
-
-export {
-  CustomLink as Link,
-  ExternalLink,
-  StyledAnchor as AnchorLink,
-  AnchorLinkText,
-}
+export { CustomLink as Link, StyledAnchor as AnchorLink, AnchorLinkText }

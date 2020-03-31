@@ -1,19 +1,83 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Container renders correctly 1`] = `
+exports[`ContactMe renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="sc-AxirZ kuXTiy"
-      />
+      <aside
+        class="sc-AxirZ bfdHoz"
+        id="contact"
+      >
+        <header
+          class="sc-AxiKw ihVPJd"
+        >
+          <h1
+            class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
+          >
+            Contact me
+          </h1>
+        </header>
+        <div
+          class="sc-AxhUy jSnPkM"
+        >
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            <p>
+              Take a sit. How can I help you?
+            </p>
+          </div>
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            Your name + Email
+          </div>
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            Your message + Send your message
+          </div>
+        </div>
+      </aside>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="sc-AxirZ kuXTiy"
-    />
+    <aside
+      class="sc-AxirZ bfdHoz"
+      id="contact"
+    >
+      <header
+        class="sc-AxiKw ihVPJd"
+      >
+        <h1
+          class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
+        >
+          Contact me
+        </h1>
+      </header>
+      <div
+        class="sc-AxhUy jSnPkM"
+      >
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          <p>
+            Take a sit. How can I help you?
+          </p>
+        </div>
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          Your name + Email
+        </div>
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          Your message + Send your message
+        </div>
+      </div>
+    </aside>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

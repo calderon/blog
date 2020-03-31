@@ -4,6 +4,8 @@ config.autoAddCss = false
 import { createGlobalStyle } from "styled-components"
 import { normalize } from "styled-normalize"
 
+import { srOnly } from "../../assets/styles/helpers"
+
 const GlobalStyle = createGlobalStyle`
   ${normalize}
 
@@ -30,6 +32,18 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${props => props.theme.colors.light};
   }
 
+  figure {
+    margin: 1rem 0 2rem;
+    padding: .5rem;
+    border: .2rem solid ${props => props.theme.colors.light};
+    display: inline-block;
+
+    img {
+      vertical-align: middle;
+      max-width: 100%;
+    }
+  }
+
   p {
     margin: 0 0 1rem 0;
 
@@ -44,6 +58,10 @@ const GlobalStyle = createGlobalStyle`
 
   .unscrolled {
     overflow: hidden;
+  }
+
+  .srOnly {
+    ${srOnly};
   }
 `
 
