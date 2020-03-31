@@ -21,7 +21,8 @@
       "editor.formatOnSave": true
     },
     "search.exclude": {
-      "**/__snapshots__": true
+      "**/__snapshots__": true,
+      "yarn.lock": true
     }
   }
 }
