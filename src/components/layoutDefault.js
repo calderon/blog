@@ -12,8 +12,6 @@ import { Container, ContainerMain, ContainerColumn } from "./Container"
 const Page = styled.div.attrs(props => ({
   className: "page",
 }))`
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
   max-width: 1120px;
   margin: 0 auto;
 `
