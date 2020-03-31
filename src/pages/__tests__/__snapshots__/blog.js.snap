@@ -162,9 +162,15 @@ Object {
             </a>
           </nav>
         </header>
-        Coming soon...
+        <main>
+          <div
+            class="sc-fzpans sc-fzqBZW gDcLbG"
+          >
+            Coming soon...
+          </div>
+        </main>
         <footer
-          class="sc-fzpans bekeyF"
+          class="sc-fzpans ckyBZZ"
         >
           <div
             class="sc-fznKkj hCHeFQ"
@@ -178,7 +184,6 @@ Object {
                 <a
                   class="sc-AxirZ cSARNv"
                   href="https://www.gatsbyjs.org/"
-                  rel="external "
                   title="gatsby"
                 >
                   gatsby
@@ -188,13 +193,11 @@ Object {
                 <a
                   class="sc-AxirZ cSARNv"
                   href="https://github.com/calderon/blog"
-                  rel="external me"
                   title="github"
                 >
                   github
                 </a>
-                 
-                and deployed using github actions.
+                 and deployed using github actions.
               </p>
             </div>
             <div
@@ -374,9 +377,15 @@ Object {
           </a>
         </nav>
       </header>
-      Coming soon...
+      <main>
+        <div
+          class="sc-fzpans sc-fzqBZW gDcLbG"
+        >
+          Coming soon...
+        </div>
+      </main>
       <footer
-        class="sc-fzpans bekeyF"
+        class="sc-fzpans ckyBZZ"
       >
         <div
           class="sc-fznKkj hCHeFQ"
@@ -390,7 +399,6 @@ Object {
               <a
                 class="sc-AxirZ cSARNv"
                 href="https://www.gatsbyjs.org/"
-                rel="external "
                 title="gatsby"
               >
                 gatsby
@@ -400,13 +408,11 @@ Object {
               <a
                 class="sc-AxirZ cSARNv"
                 href="https://github.com/calderon/blog"
-                rel="external me"
                 title="github"
               >
                 github
               </a>
-               
-              and deployed using github actions.
+               and deployed using github actions.
             </p>
           </div>
           <div

@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        class="sc-AxirZ hgabwV"
+      >
+        <div
+          class="sc-AxhUy dIGGQW"
+        >
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            <p>
+              This blog is made with
+               
+              <a
+                class="sc-AxheI eOIQuK"
+                href="https://www.gatsbyjs.org/"
+                title="gatsby"
+              >
+                gatsby
+              </a>
+              , hosted in
+               
+              <a
+                class="sc-AxheI eOIQuK"
+                href="https://github.com/calderon/blog"
+                title="github"
+              >
+                github
+              </a>
+               and deployed using github actions.
+            </p>
+          </div>
+          <div
+            class="sc-AxgMl fsfdzF"
+            opacity=".6"
+          >
+            <p>
+              the content from the blog is
+               
+              <span
+                class="copyright"
+              >
+                © 2020 danielcalderon.net
+              </span>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      class="sc-AxirZ hgabwV"
+    >
+      <div
+        class="sc-AxhUy dIGGQW"
+      >
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          <p>
+            This blog is made with
+             
+            <a
+              class="sc-AxheI eOIQuK"
+              href="https://www.gatsbyjs.org/"
+              title="gatsby"
+            >
+              gatsby
+            </a>
+            , hosted in
+             
+            <a
+              class="sc-AxheI eOIQuK"
+              href="https://github.com/calderon/blog"
+              title="github"
+            >
+              github
+            </a>
+             and deployed using github actions.
+          </p>
+        </div>
+        <div
+          class="sc-AxgMl fsfdzF"
+          opacity=".6"
+        >
+          <p>
+            the content from the blog is
+             
+            <span
+              class="copyright"
+            >
+              © 2020 danielcalderon.net
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

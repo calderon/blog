@@ -162,189 +162,179 @@ Object {
             </a>
           </nav>
         </header>
+        <main>
+          <div
+            class="sc-fzpans sc-fzqBZW gDcLbG"
+          >
+            <h2
+              class="sc-AxjAm dxUEld heading heading--h2"
+            >
+              Welcome message
+            </h2>
+            <p>
+              Hi. I’m a 
+              <mark>
+                front-end developer
+              </mark>
+               from Sevilla.
+              <br />
+              I write here about things I love: 
+              <mark>
+                Javascript
+              </mark>
+              , 
+              <mark>
+                React
+              </mark>
+               and 
+              <mark>
+                CSS3
+              </mark>
+              .
+            </p>
+            <p>
+              <mark>
+                Be welcome.
+              </mark>
+            </p>
+          </div>
+        </main>
         <aside
-          class="sc-fzpans sc-fzqBZW cDfKOc"
-          role="banner"
+          class="sc-fzpans kBVXIN"
         >
-          <h1
-            class="sc-AxjAm dxUEld heading heading--h1"
-          >
-            Welcome message
-          </h1>
-          <p>
-            Hi. I’m a 
-            <mark>
-              front-end developer
-            </mark>
-             from Sevilla.
-            <br />
-            I write here about things I love: 
-            <mark>
-              Javascript
-            </mark>
-            ,
-             
-            <mark>
-              React
-            </mark>
-             and 
-            <mark>
-              CSS3
-            </mark>
-            .
-          </p>
-          <p>
-            <mark>
-              Be welcome.
-            </mark>
-          </p>
-        </aside>
-        <main
-          class="sc-fzqNJr jRqpNG main"
-        >
-          <section
-            class="sc-fzpans kEjOsX"
-            role="complementary"
-          >
-            <header
-              class="sc-fzplWN gwLoEI"
-            >
-              <h1
-                class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
-              >
-                Latest articles
-                 
-                <small>
-                  in my 
-                  <a
-                    class="sc-AxiKw LcKoT"
-                    href="/blog"
-                  >
-                    blog
-                  </a>
-                </small>
-              </h1>
-            </header>
-            <div
-              class="sc-fznKkj eiRPwi"
-            >
-              <div
-                class="sc-fznZeY ctNIfu"
-              >
-                This will be a blog post
-              </div>
-              <div
-                class="sc-fznZeY ctNIfu"
-              >
-                This will be a blog post
-              </div>
-              <div
-                class="sc-fznZeY ctNIfu"
-              >
-                This will be a blog post
-              </div>
-            </div>
-          </section>
-          <section
-            class="sc-fzpans bxwNYX"
-            id="contact"
-          >
-            <header
-              class="sc-fzplWN gwLoEI"
-            >
-              <h1
-                class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
-              >
-                Contact me
-              </h1>
-            </header>
-            <div
-              class="sc-fznKkj eiRPwi"
-            >
-              <div
-                class="sc-fznZeY ctNIfu"
-              >
-                <p>
-                  Take a sit. How can I help you?
-                </p>
-              </div>
-              <div
-                class="sc-fznZeY ctNIfu"
-              >
-                Your name + Email
-              </div>
-              <div
-                class="sc-fznZeY ctNIfu"
-              >
-                Your message + Send your message
-              </div>
-            </div>
-          </section>
-          <section
-            class="sc-fzpans fkvCEl"
-            role="contentinfo"
+          <header
+            class="sc-fzplWN gwLoEI"
           >
             <h1
               class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
             >
-              I'm also in
+              Latest articles
+               
+              <small>
+                in my 
+                <a
+                  class="sc-AxiKw LcKoT"
+                  href="/blog"
+                >
+                  blog
+                </a>
+              </small>
             </h1>
-            <ul
-              class="sc-AxgMl iAnzxH list"
+          </header>
+          <div
+            class="sc-fznKkj eiRPwi"
+          >
+            <div
+              class="sc-fznZeY ctNIfu"
             >
-              <li
-                class="sc-fzoyAV fgcDZh"
+              This will be a blog post
+            </div>
+            <div
+              class="sc-fznZeY ctNIfu"
+            >
+              This will be a blog post
+            </div>
+            <div
+              class="sc-fznZeY ctNIfu"
+            >
+              This will be a blog post
+            </div>
+          </div>
+        </aside>
+        <aside
+          class="sc-fzpans bGaeBn"
+          id="contact"
+        >
+          <header
+            class="sc-fzplWN gwLoEI"
+          >
+            <h1
+              class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
+            >
+              Contact me
+            </h1>
+          </header>
+          <div
+            class="sc-fznKkj eiRPwi"
+          >
+            <div
+              class="sc-fznZeY ctNIfu"
+            >
+              <p>
+                Take a sit. How can I help you?
+              </p>
+            </div>
+            <div
+              class="sc-fznZeY ctNIfu"
+            >
+              Your name + Email
+            </div>
+            <div
+              class="sc-fznZeY ctNIfu"
+            >
+              Your message + Send your message
+            </div>
+          </div>
+        </aside>
+        <aside
+          class="sc-fzpans kwGRjF"
+        >
+          <h1
+            class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
+          >
+            I'm also in
+          </h1>
+          <ul
+            class="sc-AxgMl iAnzxH list"
+          >
+            <li
+              class="sc-fzqNJr bxCjTH"
+            >
+              <a
+                class="sc-AxirZ cSARNv"
+                href="https://github.com/calderon"
+                title="github"
               >
-                <a
-                  class="sc-AxirZ cSARNv"
-                  href="https://github.com/calderon"
-                  rel="external me"
-                  title="github"
-                >
-                  github
-                </a>
-              </li>
-              <li
-                class="sc-fzoyAV fgcDZh"
+                github
+              </a>
+            </li>
+            <li
+              class="sc-fzqNJr bxCjTH"
+            >
+              <a
+                class="sc-AxirZ cSARNv"
+                href="https://twitter.com/dcalderon"
+                title="twitter"
               >
-                <a
-                  class="sc-AxirZ cSARNv"
-                  href="https://twitter.com/dcalderon"
-                  rel="external me"
-                  title="twitter"
-                >
-                  twitter
-                </a>
-              </li>
-              <li
-                class="sc-fzoyAV fgcDZh"
+                twitter
+              </a>
+            </li>
+            <li
+              class="sc-fzqNJr bxCjTH"
+            >
+              <a
+                class="sc-AxirZ cSARNv"
+                href="http://linkedin.com/in/danielcalderon"
+                title="linkedin"
               >
-                <a
-                  class="sc-AxirZ cSARNv"
-                  href="http://linkedin.com/in/danielcalderon"
-                  rel="external me"
-                  title="linkedin"
-                >
-                  linkedin
-                </a>
-              </li>
-              <li
-                class="sc-fzoyAV fgcDZh"
+                linkedin
+              </a>
+            </li>
+            <li
+              class="sc-fzqNJr bxCjTH"
+            >
+              <a
+                class="sc-AxirZ cSARNv"
+                href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+                title="stack overflow"
               >
-                <a
-                  class="sc-AxirZ cSARNv"
-                  href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
-                  rel="external me"
-                  title="stack overflow"
-                >
-                  stack overflow
-                </a>
-              </li>
-            </ul>
-          </section>
-        </main>
+                stack overflow
+              </a>
+            </li>
+          </ul>
+        </aside>
         <footer
-          class="sc-fzpans bekeyF"
+          class="sc-fzpans ckyBZZ"
         >
           <div
             class="sc-fznKkj hCHeFQ"
@@ -358,7 +348,6 @@ Object {
                 <a
                   class="sc-AxirZ cSARNv"
                   href="https://www.gatsbyjs.org/"
-                  rel="external "
                   title="gatsby"
                 >
                   gatsby
@@ -368,13 +357,11 @@ Object {
                 <a
                   class="sc-AxirZ cSARNv"
                   href="https://github.com/calderon/blog"
-                  rel="external me"
                   title="github"
                 >
                   github
                 </a>
-                 
-                and deployed using github actions.
+                 and deployed using github actions.
               </p>
             </div>
             <div
@@ -554,189 +541,179 @@ Object {
           </a>
         </nav>
       </header>
+      <main>
+        <div
+          class="sc-fzpans sc-fzqBZW gDcLbG"
+        >
+          <h2
+            class="sc-AxjAm dxUEld heading heading--h2"
+          >
+            Welcome message
+          </h2>
+          <p>
+            Hi. I’m a 
+            <mark>
+              front-end developer
+            </mark>
+             from Sevilla.
+            <br />
+            I write here about things I love: 
+            <mark>
+              Javascript
+            </mark>
+            , 
+            <mark>
+              React
+            </mark>
+             and 
+            <mark>
+              CSS3
+            </mark>
+            .
+          </p>
+          <p>
+            <mark>
+              Be welcome.
+            </mark>
+          </p>
+        </div>
+      </main>
       <aside
-        class="sc-fzpans sc-fzqBZW cDfKOc"
-        role="banner"
+        class="sc-fzpans kBVXIN"
       >
-        <h1
-          class="sc-AxjAm dxUEld heading heading--h1"
-        >
-          Welcome message
-        </h1>
-        <p>
-          Hi. I’m a 
-          <mark>
-            front-end developer
-          </mark>
-           from Sevilla.
-          <br />
-          I write here about things I love: 
-          <mark>
-            Javascript
-          </mark>
-          ,
-           
-          <mark>
-            React
-          </mark>
-           and 
-          <mark>
-            CSS3
-          </mark>
-          .
-        </p>
-        <p>
-          <mark>
-            Be welcome.
-          </mark>
-        </p>
-      </aside>
-      <main
-        class="sc-fzqNJr jRqpNG main"
-      >
-        <section
-          class="sc-fzpans kEjOsX"
-          role="complementary"
-        >
-          <header
-            class="sc-fzplWN gwLoEI"
-          >
-            <h1
-              class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
-            >
-              Latest articles
-               
-              <small>
-                in my 
-                <a
-                  class="sc-AxiKw LcKoT"
-                  href="/blog"
-                >
-                  blog
-                </a>
-              </small>
-            </h1>
-          </header>
-          <div
-            class="sc-fznKkj eiRPwi"
-          >
-            <div
-              class="sc-fznZeY ctNIfu"
-            >
-              This will be a blog post
-            </div>
-            <div
-              class="sc-fznZeY ctNIfu"
-            >
-              This will be a blog post
-            </div>
-            <div
-              class="sc-fznZeY ctNIfu"
-            >
-              This will be a blog post
-            </div>
-          </div>
-        </section>
-        <section
-          class="sc-fzpans bxwNYX"
-          id="contact"
-        >
-          <header
-            class="sc-fzplWN gwLoEI"
-          >
-            <h1
-              class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
-            >
-              Contact me
-            </h1>
-          </header>
-          <div
-            class="sc-fznKkj eiRPwi"
-          >
-            <div
-              class="sc-fznZeY ctNIfu"
-            >
-              <p>
-                Take a sit. How can I help you?
-              </p>
-            </div>
-            <div
-              class="sc-fznZeY ctNIfu"
-            >
-              Your name + Email
-            </div>
-            <div
-              class="sc-fznZeY ctNIfu"
-            >
-              Your message + Send your message
-            </div>
-          </div>
-        </section>
-        <section
-          class="sc-fzpans fkvCEl"
-          role="contentinfo"
+        <header
+          class="sc-fzplWN gwLoEI"
         >
           <h1
             class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
           >
-            I'm also in
+            Latest articles
+             
+            <small>
+              in my 
+              <a
+                class="sc-AxiKw LcKoT"
+                href="/blog"
+              >
+                blog
+              </a>
+            </small>
           </h1>
-          <ul
-            class="sc-AxgMl iAnzxH list"
+        </header>
+        <div
+          class="sc-fznKkj eiRPwi"
+        >
+          <div
+            class="sc-fznZeY ctNIfu"
           >
-            <li
-              class="sc-fzoyAV fgcDZh"
+            This will be a blog post
+          </div>
+          <div
+            class="sc-fznZeY ctNIfu"
+          >
+            This will be a blog post
+          </div>
+          <div
+            class="sc-fznZeY ctNIfu"
+          >
+            This will be a blog post
+          </div>
+        </div>
+      </aside>
+      <aside
+        class="sc-fzpans bGaeBn"
+        id="contact"
+      >
+        <header
+          class="sc-fzplWN gwLoEI"
+        >
+          <h1
+            class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
+          >
+            Contact me
+          </h1>
+        </header>
+        <div
+          class="sc-fznKkj eiRPwi"
+        >
+          <div
+            class="sc-fznZeY ctNIfu"
+          >
+            <p>
+              Take a sit. How can I help you?
+            </p>
+          </div>
+          <div
+            class="sc-fznZeY ctNIfu"
+          >
+            Your name + Email
+          </div>
+          <div
+            class="sc-fznZeY ctNIfu"
+          >
+            Your message + Send your message
+          </div>
+        </div>
+      </aside>
+      <aside
+        class="sc-fzpans kwGRjF"
+      >
+        <h1
+          class="sc-AxjAm sc-fznyAO cXUMSG heading heading--h1"
+        >
+          I'm also in
+        </h1>
+        <ul
+          class="sc-AxgMl iAnzxH list"
+        >
+          <li
+            class="sc-fzqNJr bxCjTH"
+          >
+            <a
+              class="sc-AxirZ cSARNv"
+              href="https://github.com/calderon"
+              title="github"
             >
-              <a
-                class="sc-AxirZ cSARNv"
-                href="https://github.com/calderon"
-                rel="external me"
-                title="github"
-              >
-                github
-              </a>
-            </li>
-            <li
-              class="sc-fzoyAV fgcDZh"
+              github
+            </a>
+          </li>
+          <li
+            class="sc-fzqNJr bxCjTH"
+          >
+            <a
+              class="sc-AxirZ cSARNv"
+              href="https://twitter.com/dcalderon"
+              title="twitter"
             >
-              <a
-                class="sc-AxirZ cSARNv"
-                href="https://twitter.com/dcalderon"
-                rel="external me"
-                title="twitter"
-              >
-                twitter
-              </a>
-            </li>
-            <li
-              class="sc-fzoyAV fgcDZh"
+              twitter
+            </a>
+          </li>
+          <li
+            class="sc-fzqNJr bxCjTH"
+          >
+            <a
+              class="sc-AxirZ cSARNv"
+              href="http://linkedin.com/in/danielcalderon"
+              title="linkedin"
             >
-              <a
-                class="sc-AxirZ cSARNv"
-                href="http://linkedin.com/in/danielcalderon"
-                rel="external me"
-                title="linkedin"
-              >
-                linkedin
-              </a>
-            </li>
-            <li
-              class="sc-fzoyAV fgcDZh"
+              linkedin
+            </a>
+          </li>
+          <li
+            class="sc-fzqNJr bxCjTH"
+          >
+            <a
+              class="sc-AxirZ cSARNv"
+              href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+              title="stack overflow"
             >
-              <a
-                class="sc-AxirZ cSARNv"
-                href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
-                rel="external me"
-                title="stack overflow"
-              >
-                stack overflow
-              </a>
-            </li>
-          </ul>
-        </section>
-      </main>
+              stack overflow
+            </a>
+          </li>
+        </ul>
+      </aside>
       <footer
-        class="sc-fzpans bekeyF"
+        class="sc-fzpans ckyBZZ"
       >
         <div
           class="sc-fznKkj hCHeFQ"
@@ -750,7 +727,6 @@ Object {
               <a
                 class="sc-AxirZ cSARNv"
                 href="https://www.gatsbyjs.org/"
-                rel="external "
                 title="gatsby"
               >
                 gatsby
@@ -760,13 +736,11 @@ Object {
               <a
                 class="sc-AxirZ cSARNv"
                 href="https://github.com/calderon/blog"
-                rel="external me"
                 title="github"
               >
                 github
               </a>
-               
-              and deployed using github actions.
+               and deployed using github actions.
             </p>
           </div>
           <div

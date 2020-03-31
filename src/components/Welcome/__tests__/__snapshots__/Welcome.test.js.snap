@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Container renders correctly 1`] = `
+exports[`Welcome renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxirZ kuXTiy"
+        class="sc-AxirZ sc-AxheI ihigph"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-AxirZ kuXTiy"
+      class="sc-AxirZ sc-AxheI ihigph"
     />
   </div>,
   "debug": [Function],

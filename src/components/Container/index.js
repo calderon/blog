@@ -6,7 +6,7 @@ import { devices } from "../../assets/styles/helpers"
 
 import Heading from "../Heading"
 
-const Container = styled.section`
+const Container = styled.div`
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   padding-bottom: 3.8rem;
@@ -94,7 +94,7 @@ const Container = styled.section`
         }
       }
     `}
-  
+
   ${props =>
     props.noHeader &&
     css`
