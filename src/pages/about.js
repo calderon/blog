@@ -26,7 +26,7 @@ const About = props => {
           </figure>
 
           <p>
-            I'm a Front-end engineer freelancer from Spain, focused on web
+            I'm a Front-end engineer freelancer from Sevilla, Spain, focused on web
             development.
           </p>
           <p>
@@ -36,7 +36,7 @@ const About = props => {
               rel="external noreferrer"
               title="Avallain"
             />
-            , developing e-learning products for clients around the world, as{" "}
+            , developing e-learning products for clients all around the world, as{" "}
             <Link
               to="https://richmondlp.com/"
               rel="external noreferrer"
@@ -51,8 +51,8 @@ const About = props => {
             .
           </p>
           <p>
-            At the beginning of my career, I had the opportunity to take one of
-            the best design courses in Spain,{" "}
+            At the beginning of my career, I had the opportunity to attend of
+            most prestigious design courses in Spain,{" "}
             <Link
               to="https://www.terremoto.net/programa-vostok"
               rel="external noreferrer"
@@ -70,11 +70,11 @@ const About = props => {
           </p>
           <p>
             This course allowed me to acquire a deep knowledge about interface
-            and product design. At the same time, I worked as{" "}
-            <abbr lang="en" title="User Interface">
+            and product design. Meanwhile, I worked as{" "}
+            <mark><abbr lang="en" title="User Interface">
               UI
             </abbr>{" "}
-            designer at{" "}
+            designer</mark> at{" "}
             <Link
               to="https://secuoyas.com/"
               rel="external noreferrer"
@@ -86,18 +86,18 @@ const About = props => {
           <p>
             After my foray into design, I decided to return to my developer
             side, being a partner and part of one of the first agile companies
-            in my own city, working with Rails to develop cross-platform
+            in my home city, working with <mark>Rails</mark> to develop cross-platform
             websites.
           </p>
           <p>
-            That's when I decided to began my journey as a font-end freelancer,
-            working on important companies such{" "}
+            That's when I decided to begin my journey as a <mark>front-end freelancer</mark>,
+            working on important companies such as{" "}
             <Link
               to="https://www.jobandtalent.com"
               rel="external noreferrer"
               title="jobandtalent"
             />
-            , a digital temp staffing agency online, where I started to became a{" "}
+            , a digital temp staffing agency online, where I started to become a{" "}
             <abbr title="Javascript">JS</abbr> developer working with{" "}
             <abbr lang="en" title="ECMAScript 6">
               ES6
@@ -118,7 +118,7 @@ const About = props => {
               title="Avallain"
             />
             , I'm developing e-learning solutions for important clients and
-            training up in React and Gatsby, improving my javascript skills.
+            improving my javascript skills in <mark>React</mark> and <mark>Gatsby</mark>.
           </p>
         </Welcome>
       </main>
