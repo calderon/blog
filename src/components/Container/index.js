@@ -22,6 +22,18 @@ const Container = styled.div`
   }
 
   ${props =>
+    props.main &&
+    css`
+      padding-top: 4.5rem;
+      padding-bottom: 6rem;
+
+      @media ${devices.lg} {
+        padding-top: 9rem;
+        padding-bottom: 11.5rem;
+      }
+    `}
+
+  ${props =>
     props.primary &&
     css`
       background-color: ${props => props.theme.palette.primary};
@@ -61,17 +73,6 @@ const Container = styled.div`
         background: none;
       }
     `}
-
-  ${props =>
-    props.main
-      ? css`
-          grid-column-start: 1;
-          grid-column-end: 4;
-        `
-      : css`
-          grid-column-start: 1;
-          grid-column-end: 2;
-        `}
 
   ${props =>
     props.inline &&
@@ -119,7 +120,7 @@ const ContainerHeading = styled(Heading)`
   text-transform: lowercase;
 `
 
-const ContainerMain = styled.div`
+const ContainerContent = styled.div`
   ${props =>
     props.columnize &&
     css`
@@ -163,6 +164,6 @@ export {
   Container,
   ContainerHeader,
   ContainerHeading,
-  ContainerMain,
+  ContainerContent,
   ContainerColumn,
 }

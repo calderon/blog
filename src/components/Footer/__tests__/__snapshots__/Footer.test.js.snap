@@ -5,8 +5,100 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <aside
+        class="sc-AxirZ lmvwwP"
+        id="contact"
+      >
+        <header
+          class="sc-AxiKw ihVPJd"
+        >
+          <h1
+            class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
+          >
+            Contact me
+          </h1>
+        </header>
+        <div
+          class="sc-AxhUy jSnPkM"
+        >
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            <p>
+              Take a sit. How can I help you?
+            </p>
+          </div>
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            Your name + Email
+          </div>
+          <div
+            class="sc-AxgMl JpLPp"
+          >
+            Your message + Send your message
+          </div>
+        </div>
+      </aside>
+      <aside
+        class="sc-AxirZ gLHtXh"
+      >
+        <h1
+          class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
+        >
+          I'm also in
+        </h1>
+        <ul
+          class="sc-AxheI ggEYld list"
+        >
+          <li
+            class="sc-fzpans bihvlY"
+          >
+            <a
+              class="sc-Axmtr cDyQjN"
+              href="https://github.com/calderon"
+              title="github"
+            >
+              github
+            </a>
+          </li>
+          <li
+            class="sc-fzpans bihvlY"
+          >
+            <a
+              class="sc-Axmtr cDyQjN"
+              href="https://twitter.com/dcalderon"
+              title="twitter"
+            >
+              twitter
+            </a>
+          </li>
+          <li
+            class="sc-fzpans bihvlY"
+          >
+            <a
+              class="sc-Axmtr cDyQjN"
+              href="http://linkedin.com/in/danielcalderon"
+              title="linkedin"
+            >
+              linkedin
+            </a>
+          </li>
+          <li
+            class="sc-fzpans bihvlY"
+          >
+            <a
+              class="sc-Axmtr cDyQjN"
+              href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+              title="stack overflow"
+            >
+              stack overflow
+            </a>
+          </li>
+        </ul>
+      </aside>
       <footer
-        class="sc-AxirZ hgabwV"
+        class="sc-AxirZ iWVlHZ"
       >
         <div
           class="sc-AxhUy dIGGQW"
@@ -18,7 +110,7 @@ Object {
               This blog is made with
                
               <a
-                class="sc-AxheI eOIQuK"
+                class="sc-Axmtr cDyQjN"
                 href="https://www.gatsbyjs.org/"
                 title="gatsby"
               >
@@ -27,7 +119,7 @@ Object {
               , hosted in
                
               <a
-                class="sc-AxheI eOIQuK"
+                class="sc-Axmtr cDyQjN"
                 href="https://github.com/calderon/blog"
                 title="github"
               >
@@ -41,12 +133,14 @@ Object {
             opacity=".6"
           >
             <p>
-              the content from the blog is
+              content is
                
               <span
                 class="copyright"
               >
-                © 2020 danielcalderon.net
+                © 
+                2020
+                 danielcalderon.dev
               </span>
             </p>
           </div>
@@ -55,8 +149,100 @@ Object {
     </div>
   </body>,
   "container": <div>
+    <aside
+      class="sc-AxirZ lmvwwP"
+      id="contact"
+    >
+      <header
+        class="sc-AxiKw ihVPJd"
+      >
+        <h1
+          class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
+        >
+          Contact me
+        </h1>
+      </header>
+      <div
+        class="sc-AxhUy jSnPkM"
+      >
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          <p>
+            Take a sit. How can I help you?
+          </p>
+        </div>
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          Your name + Email
+        </div>
+        <div
+          class="sc-AxgMl JpLPp"
+        >
+          Your message + Send your message
+        </div>
+      </div>
+    </aside>
+    <aside
+      class="sc-AxirZ gLHtXh"
+    >
+      <h1
+        class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
+      >
+        I'm also in
+      </h1>
+      <ul
+        class="sc-AxheI ggEYld list"
+      >
+        <li
+          class="sc-fzpans bihvlY"
+        >
+          <a
+            class="sc-Axmtr cDyQjN"
+            href="https://github.com/calderon"
+            title="github"
+          >
+            github
+          </a>
+        </li>
+        <li
+          class="sc-fzpans bihvlY"
+        >
+          <a
+            class="sc-Axmtr cDyQjN"
+            href="https://twitter.com/dcalderon"
+            title="twitter"
+          >
+            twitter
+          </a>
+        </li>
+        <li
+          class="sc-fzpans bihvlY"
+        >
+          <a
+            class="sc-Axmtr cDyQjN"
+            href="http://linkedin.com/in/danielcalderon"
+            title="linkedin"
+          >
+            linkedin
+          </a>
+        </li>
+        <li
+          class="sc-fzpans bihvlY"
+        >
+          <a
+            class="sc-Axmtr cDyQjN"
+            href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+            title="stack overflow"
+          >
+            stack overflow
+          </a>
+        </li>
+      </ul>
+    </aside>
     <footer
-      class="sc-AxirZ hgabwV"
+      class="sc-AxirZ iWVlHZ"
     >
       <div
         class="sc-AxhUy dIGGQW"
@@ -68,7 +254,7 @@ Object {
             This blog is made with
              
             <a
-              class="sc-AxheI eOIQuK"
+              class="sc-Axmtr cDyQjN"
               href="https://www.gatsbyjs.org/"
               title="gatsby"
             >
@@ -77,7 +263,7 @@ Object {
             , hosted in
              
             <a
-              class="sc-AxheI eOIQuK"
+              class="sc-Axmtr cDyQjN"
               href="https://github.com/calderon/blog"
               title="github"
             >
@@ -91,12 +277,14 @@ Object {
           opacity=".6"
         >
           <p>
-            the content from the blog is
+            content is
              
             <span
               class="copyright"
             >
-              © 2020 danielcalderon.net
+              © 
+              2020
+               danielcalderon.dev
             </span>
           </p>
         </div>

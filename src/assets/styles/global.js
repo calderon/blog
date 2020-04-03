@@ -4,8 +4,6 @@ config.autoAddCss = false
 import { createGlobalStyle } from "styled-components"
 import { normalize } from "styled-normalize"
 
-import { srOnly } from "../../assets/styles/helpers"
-
 const GlobalStyle = createGlobalStyle`
   ${normalize}
 
@@ -32,11 +30,17 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${props => props.theme.colors.light};
   }
 
+  a {
+    color: ${props => props.theme.palette.quaternary};
+
+    &:hover {
+      color: ${props => props.theme.palette.quinary};
+    }
+  }
+
   figure {
-    margin: 1rem 0 2rem;
-    padding: .5rem;
-    border: .2rem solid ${props => props.theme.colors.light};
     display: inline-block;
+    margin: 0;
 
     img {
       vertical-align: middle;
@@ -52,16 +56,8 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  .copyright {
-    display: inline-block;
-  }
-
-  .unscrolled {
-    overflow: hidden;
-  }
-
-  .srOnly {
-    ${srOnly};
+  a {
+    ${props => props.theme.font.base};
   }
 `
 

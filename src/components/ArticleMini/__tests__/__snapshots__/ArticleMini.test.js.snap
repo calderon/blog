@@ -1,83 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ContactMe renders correctly 1`] = `
+exports[`ArticleMini renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <aside
-        class="sc-AxirZ bfdHoz"
-        id="contact"
+      <article
+        class="sc-AxiKw ksCNtr"
       >
         <header
-          class="sc-AxiKw ihVPJd"
+          class="sc-AxjAm jZJWD"
         >
-          <h1
-            class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
-          >
-            Contact me
-          </h1>
+          <figure>
+            <img
+              src="https://via.placeholder.com/500x200"
+            />
+          </figure>
+          <h1 />
         </header>
         <div
-          class="sc-AxhUy jSnPkM"
-        >
-          <div
-            class="sc-AxgMl JpLPp"
-          >
-            <p>
-              Take a sit. How can I help you?
-            </p>
-          </div>
-          <div
-            class="sc-AxgMl JpLPp"
-          >
-            Your name + Email
-          </div>
-          <div
-            class="sc-AxgMl JpLPp"
-          >
-            Your message + Send your message
-          </div>
-        </div>
-      </aside>
+          class="sc-AxirZ bzkNVV"
+        />
+      </article>
     </div>
   </body>,
   "container": <div>
-    <aside
-      class="sc-AxirZ bfdHoz"
-      id="contact"
+    <article
+      class="sc-AxiKw ksCNtr"
     >
       <header
-        class="sc-AxiKw ihVPJd"
+        class="sc-AxjAm jZJWD"
       >
-        <h1
-          class="sc-AxjAm sc-AxhCb hqTGCv heading heading--h1"
-        >
-          Contact me
-        </h1>
+        <figure>
+          <img
+            src="https://via.placeholder.com/500x200"
+          />
+        </figure>
+        <h1 />
       </header>
       <div
-        class="sc-AxhUy jSnPkM"
-      >
-        <div
-          class="sc-AxgMl JpLPp"
-        >
-          <p>
-            Take a sit. How can I help you?
-          </p>
-        </div>
-        <div
-          class="sc-AxgMl JpLPp"
-        >
-          Your name + Email
-        </div>
-        <div
-          class="sc-AxgMl JpLPp"
-        >
-          Your message + Send your message
-        </div>
-      </div>
-    </aside>
+        class="sc-AxirZ bzkNVV"
+      />
+    </article>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

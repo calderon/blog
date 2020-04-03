@@ -7,23 +7,27 @@ import me from "../assets/images/daniel-calderon.jpg"
 
 import { Link } from "../components/Link"
 import Heading from "../components/Heading"
-import { Welcome } from "../components/Welcome"
-import ContactMe from "../components/ContactMe"
-import ExternalLinks from "../components/ExternalLinks"
+import { Container } from "../components/Container"
+
+const AboutMeImage = styled.figure`
+  margin: 1rem 0 2rem;
+  padding: .5rem;
+  border: .2rem solid ${props => props.theme.colors.light};
+`
 
 const About = props => {
   return (
     <Layout>
       <main>
-        <Welcome bright>
+        <Container main bright>
           <Heading as="h2">Hi, my name is Daniel Calderón.</Heading>
 
-          <figure>
+          <AboutMeImage>
             <img src={me} alt="A picture of Daniel Calderon" title="It's me!" />
             <figcaption className="srOnly">
               A picture of Daniel Calderon
             </figcaption>
-          </figure>
+          </AboutMeImage>
 
           <p>
             I'm a Front-end engineer freelancer from Sevilla, Spain, focused on web
@@ -120,11 +124,8 @@ const About = props => {
             , I'm developing e-learning solutions for important clients and
             improving my javascript skills in <mark>React</mark> and <mark>Gatsby</mark>.
           </p>
-        </Welcome>
+        </Container>
       </main>
-
-      <ContactMe />
-      <ExternalLinks />
     </Layout>
   )
 }

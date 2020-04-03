@@ -2,7 +2,9 @@ import React from "react"
 import styled, { ThemeProvider } from "styled-components"
 
 import theme from "../theme"
+
 import GlobalStyle from "../assets/styles/global"
+import BaseStyle from "../assets/styles/base"
 
 import Header from "./Header"
 import Footer from "./Footer"
@@ -18,6 +20,7 @@ const LayoutDefault = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <BaseStyle />
       <Page>
         <Header />
 
