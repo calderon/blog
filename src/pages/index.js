@@ -1,5 +1,8 @@
 import React from "react"
+import { graphql } from "gatsby"
 import styled from "styled-components"
+
+import { devices } from "../assets/styles/helpers"
 
 import Layout from "../components/layoutDefault"
 import Heading from "../components/Heading"
@@ -7,14 +10,11 @@ import {
   Container,
   ContainerHeader,
   ContainerHeading,
-  ContainerMain,
   ContainerColumn,
 } from "../components/Container"
 import { Link } from "../components/Link"
+import ArticleMini from "../components/ArticleMini"
 
-import { Welcome } from "../components/Welcome"
-import ContactMe from "../components/ContactMe"
-import ExternalLinks from "../components/ExternalLinks"
 
 const Main = styled.main.attrs(props => ({
   className: "main",
@@ -24,11 +24,25 @@ const Main = styled.main.attrs(props => ({
   display: grid;
 `
 
-const Home = props => {
+const ArticlesGridMini = styled.div`
+  display: grid;
+  grid-gap: 2.5rem;
+
+  @media ${devices.md} {
+    grid-gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media ${devices.lg} {
+    grid-gap: 2.5rem;
+  }
+`
+
+const Home = ({ data }) => {
   return (
     <Layout>
       <main>
-        <Welcome main bright>
+        <Container main bright>
           <Heading as="h2" srOnly>
             Welcome message
           </Heading>
@@ -42,7 +56,7 @@ const Home = props => {
           <p>
             <mark>Be welcome.</mark>
           </p>
-        </Welcome>
+        </Container>
       </main>
 
       <Container as="aside" tertiary>
@@ -55,17 +69,31 @@ const Home = props => {
           </ContainerHeading>
         </ContainerHeader>
 
-        <ContainerMain columnize={3}>
-          <ContainerColumn>This will be a blog post</ContainerColumn>
-          <ContainerColumn>This will be a blog post</ContainerColumn>
-          <ContainerColumn>This will be a blog post</ContainerColumn>
-        </ContainerMain>
+        <ArticlesGridMini>
+          {data.allMarkdownRemark.edges.map(({ node }, index) => (
+            <ArticleMini key={index} article={node} />
+          ))}
+        </ArticlesGridMini>
       </Container>
-
-      <ContactMe />
-      <ExternalLinks />
     </Layout>
   )
 }
 
 export default Home
+
+export const query = graphql`
+  query LatestPostsQuery {
+    allMarkdownRemark(sort: { fields: frontmatter___date }, limit: 3) {
+      edges {
+        node {
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+            summary
+          }
+          html
+        }
+      }
+    }
+  }
+`
