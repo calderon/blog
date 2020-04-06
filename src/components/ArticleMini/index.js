@@ -4,6 +4,8 @@ import { rgba } from "polished"
 
 import { devices } from "../../assets/styles/helpers"
 
+import { Link } from "../Link"
+
 const StyledArticleHeader = styled.header`
   figure,
   img {
@@ -44,20 +46,32 @@ const StyledArticleContent = styled.div`
 `
 
 const ArticleContent = ({ article }) => {
-  return <StyledArticleContent dangerouslySetInnerHTML={{ __html: article.summary }} />
+  return (
+    <StyledArticleContent
+      dangerouslySetInnerHTML={{ __html: article.summary }}
+    />
+  )
 }
 
 const StyledArticleMini = styled.article`
-  transition: background 600ms,
-              box-shadow 300ms;
-  background: rgba(0, 0, 0, .04);
+  transition: background 600ms, box-shadow 300ms;
+  background: rgba(0, 0, 0, 0.04);
   color: ${props => props.theme.palette.primary};
+  position: relative;
 
   &:hover {
-    box-shadow: 0 .3rem 1rem 0 rgba(0,0,0, .10);
+    box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.1);
     background: ${props => props.theme.colors.bright};
     cursor: pointer;
   }
+`
+
+const ArticleLink = styled(Link)`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 `
 
 const ArticleMini = props => {
@@ -67,6 +81,9 @@ const ArticleMini = props => {
     <StyledArticleMini {...others}>
       <ArticleHeader article={article.frontmatter} />
       <ArticleContent article={article.frontmatter} />
+      <ArticleLink to={article.fields.slug}>
+        <span className="srOnly">Go to article</span>
+      </ArticleLink>
     </StyledArticleMini>
   )
 }

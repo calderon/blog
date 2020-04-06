@@ -207,7 +207,7 @@ const Header = props => {
           hiddenFrom="lg"
           onClick={handleShowMenu}
         >
-          <AnchorLinkText>Go to navigation menu</AnchorLinkText>
+          <AnchorLinkText srOnly>Go to navigation menu</AnchorLinkText>
           <FontAwesomeIcon icon={faBars} />
         </AnchorLink>
 

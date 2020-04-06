@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <article
-        class="sc-AxiKw ksCNtr"
+        class="sc-AxheI fclTfS"
       >
         <header
-          class="sc-AxjAm jZJWD"
+          class="sc-AxhUy hwJHpZ"
         >
           <figure>
             <img
@@ -19,17 +19,27 @@ Object {
           <h1 />
         </header>
         <div
-          class="sc-AxirZ bzkNVV"
+          class="sc-AxgMl jrpZCm"
         />
+        <a
+          class="sc-AxjAm ioxigH sc-Axmtr kZovVo"
+          href=""
+        >
+          <span
+            class="srOnly"
+          >
+            Go to article
+          </span>
+        </a>
       </article>
     </div>
   </body>,
   "container": <div>
     <article
-      class="sc-AxiKw ksCNtr"
+      class="sc-AxheI fclTfS"
     >
       <header
-        class="sc-AxjAm jZJWD"
+        class="sc-AxhUy hwJHpZ"
       >
         <figure>
           <img
@@ -39,8 +49,18 @@ Object {
         <h1 />
       </header>
       <div
-        class="sc-AxirZ bzkNVV"
+        class="sc-AxgMl jrpZCm"
       />
+      <a
+        class="sc-AxjAm ioxigH sc-Axmtr kZovVo"
+        href=""
+      >
+        <span
+          class="srOnly"
+        >
+          Go to article
+        </span>
+      </a>
     </article>
   </div>,
   "debug": [Function],

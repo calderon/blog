@@ -15,7 +15,6 @@ import {
 import { Link } from "../components/Link"
 import ArticleMini from "../components/ArticleMini"
 
-
 const Main = styled.main.attrs(props => ({
   className: "main",
 }))`
@@ -90,6 +89,9 @@ export const query = graphql`
             title
             date(formatString: "DD MMMM, YYYY")
             summary
+          }
+          fields {
+            slug
           }
           html
         }
