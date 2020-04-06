@@ -53,13 +53,13 @@
   },
   "devDependencies": {
     "babel-jest": "^25.1.0",
-    "babel-preset-gatsby": "^0.2.29",
+    "babel-preset-gatsby": "^0.3.1",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.1.0",
     "lighthouse-badges": "^1.0.24",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.4"
   },
   "homepage": "https://calderon.github.io/",
   "repository": {
