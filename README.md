@@ -41,3 +41,7 @@ Not everything I do on this project is included in #100DaysOfGatsby challenges. 
 * [Challenge 8](https://www.gatsbyjs.org/blog/100days/accessibility/): Make Your Forms and Images Accessible to Everyone
 * [Challenge 9](https://www.gatsbyjs.org/blog/100days/seo/): Optimize Your Website for Search Engines (SEO)
 * [Challenge 10](https://www.gatsbyjs.org/blog/100days/performance/): Keep Your Gatsby Site Blazing Fast
+* [Challenge 11](https://www.gatsbyjs.org/blog/100days/performance/): Keep Your Gatsby Site Blazing Fast
+* [Challenge 12](https://www.gatsbyjs.org/blog/100days/apps/): Transform Your Gatsby Website into a Web App
+* [Challenge 13](https://www.gatsbyjs.org/blog/100days/comments/): Enable Comments to Your Gatsby Blog
+* [Challenge 14](https://www.gatsbyjs.org/blog/100days/use-themes/): Rapidly Build Sites with Gatsby Themes
