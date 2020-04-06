@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled, { css } from "styled-components"
 
-import { devices, srOnly } from "../../assets/styles/helpers"
+import { devices, skipLink } from "../../assets/styles/helpers"
 
 const linkStyles = css`
   color: ${props => props.theme.palette.quaternary};
@@ -14,10 +14,22 @@ const linkStyles = css`
 
 const StyledLink = styled.a`
   ${linkStyles}
+
+  ${props =>
+    props.srOnly &&
+    css`
+      ${skipLink};
+    `}
 `
 
 const StyledInternalLink = styled(Link)`
   ${linkStyles}
+
+  ${props =>
+    props.srOnly &&
+    css`
+      ${skipLink};
+    `}
 `
 
 const CustomLink = ({
@@ -67,13 +79,9 @@ const StyledAnchor = styled(StyledLink)`
     props.hiddenFrom &&
     css`
       @media ${props => devices[props.hiddenFrom]} {
-        display: none;
+        ${skipLink}
       }
     `}
-
-  ${AnchorLinkText} {
-    ${srOnly};
-  }
 `
 
 export { CustomLink as Link, StyledAnchor as AnchorLink, AnchorLinkText }

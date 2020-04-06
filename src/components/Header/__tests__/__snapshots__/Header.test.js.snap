@@ -13,7 +13,7 @@ Object {
         >
           <a
             aria-current="page"
-            class="sc-AxiKw LcKoT header__title__link"
+            class="sc-AxiKw ihAuBo header__title__link"
             href="/"
           >
             Daniel Calderón
@@ -23,7 +23,7 @@ Object {
           class="sc-fzoLsD ypmdL header__navigation"
         >
           <a
-            class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--showMenu"
+            class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--showMenu"
             to="#headerMenu"
           >
             <span
@@ -60,7 +60,7 @@ Object {
               class="sc-fzozJi cxwDqd"
             >
               <a
-                class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
+                class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--blog"
                 href="/blog"
               >
                 <svg
@@ -85,7 +85,7 @@ Object {
               class="sc-fzozJi cxwDqd"
             >
               <a
-                class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
+                class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--about"
                 href="/about"
               >
                 <svg
@@ -110,7 +110,7 @@ Object {
               class="sc-fzozJi cxwDqd"
             >
               <a
-                class="sc-AxirZ cSARNv header__navigation__link header__navigation__link--contact"
+                class="sc-AxirZ VMDWU header__navigation__link header__navigation__link--contact"
                 href="#contact"
               >
                 <svg
@@ -133,7 +133,7 @@ Object {
             </li>
           </ul>
           <a
-            class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--hideMenu"
+            class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--hideMenu"
             to="#headerMenu"
           >
             <span
@@ -170,7 +170,7 @@ Object {
       >
         <a
           aria-current="page"
-          class="sc-AxiKw LcKoT header__title__link"
+          class="sc-AxiKw ihAuBo header__title__link"
           href="/"
         >
           Daniel Calderón
@@ -180,7 +180,7 @@ Object {
         class="sc-fzoLsD ypmdL header__navigation"
       >
         <a
-          class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--showMenu"
+          class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--showMenu"
           to="#headerMenu"
         >
           <span
@@ -217,7 +217,7 @@ Object {
             class="sc-fzozJi cxwDqd"
           >
             <a
-              class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--blog"
+              class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--blog"
               href="/blog"
             >
               <svg
@@ -242,7 +242,7 @@ Object {
             class="sc-fzozJi cxwDqd"
           >
             <a
-              class="sc-AxiKw LcKoT header__navigation__link header__navigation__link--about"
+              class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--about"
               href="/about"
             >
               <svg
@@ -267,7 +267,7 @@ Object {
             class="sc-fzozJi cxwDqd"
           >
             <a
-              class="sc-AxirZ cSARNv header__navigation__link header__navigation__link--contact"
+              class="sc-AxirZ VMDWU header__navigation__link header__navigation__link--contact"
               href="#contact"
             >
               <svg
@@ -290,7 +290,7 @@ Object {
           </li>
         </ul>
         <a
-          class="sc-AxirZ sc-AxhUy hgqkPn header__navigation__anchor header__navigation__anchor--hideMenu"
+          class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--hideMenu"
           to="#headerMenu"
         >
           <span

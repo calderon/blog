@@ -3,14 +3,18 @@ import { render } from "../../../../__tests__/helpers/render"
 
 import ArticleMini from "../"
 
-const renderComponent = ({ article = {}, ...props } = {}) => render(<ArticleMini article={article} {...props} />)
+const renderComponent = ({ article = {}, ...props } = {}) =>
+  render(<ArticleMini article={article} {...props} />)
 
 describe("ArticleMini", () => {
   const article = {
     frontmatter: {
       title: "",
-      summary: ""
-    }
+      summary: "",
+    },
+    fields: {
+      slug: "",
+    },
   }
 
   it("renders correctly", () => {

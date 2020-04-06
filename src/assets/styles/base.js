@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
-import { srOnly } from "../../assets/styles/helpers"
+import { srOnly, srOnlyFocusable, skipLink } from "../../assets/styles/helpers"
 
 const BaseStyle = createGlobalStyle`
   .copyright {
@@ -13,6 +13,14 @@ const BaseStyle = createGlobalStyle`
 
   .srOnly {
     ${srOnly};
+  }
+
+  .srOnlyFocusable {
+    ${srOnly};
+  }
+
+  .skipLink {
+    ${skipLink};
   }
 `
 

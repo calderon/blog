@@ -43,13 +43,16 @@ export default Blog
 
 export const query = graphql`
   query BlogQuery {
-    allMarkdownRemark(sort: { fields: frontmatter___date }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
             summary
+          }
+          fields {
+            slug
           }
         }
       }
