@@ -1,16 +1,29 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+function getCollection(node) {
+  return node.fileAbsolutePath.replace(/content\//, "")
+}
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode, basePath: "pages" })
+    const collection = getNode(node.parent).sourceInstanceName
+
+    // CUSTOM FIELDS
 
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: `${collection}${slug}`,
+    })
+
+    createNodeField({
+      node,
+      name: "collection",
+      value: collection,
     })
   }
 }

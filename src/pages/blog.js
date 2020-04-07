@@ -2,11 +2,11 @@ import React from "react"
 import styled from "styled-components"
 import { graphql } from "gatsby"
 
-import { devices } from "../../assets/styles/helpers"
+import { devices } from "../assets/styles/helpers"
 
-import Layout from "../../components/layoutDefault"
-import { Container } from "../../components/Container"
-import ArticleMini from "../../components/ArticleMini"
+import Layout from "../components/layoutDefault"
+import { Container } from "../components/Container"
+import ArticleMini from "../components/ArticleMini"
 
 const ArticlesGrid = styled.div`
   display: grid;
@@ -43,7 +43,10 @@ export default Blog
 
 export const query = graphql`
   query BlogQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___date }
+      filter: { fields: { collection: { eq: "blog" } } }
+    ) {
       edges {
         node {
           frontmatter {
@@ -51,6 +54,7 @@ export const query = graphql`
             date(formatString: "DD MMMM, YYYY")
             summary
           }
+          html
           fields {
             slug
           }

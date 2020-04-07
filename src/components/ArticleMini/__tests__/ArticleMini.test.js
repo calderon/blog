@@ -14,6 +14,7 @@ describe("ArticleMini", () => {
     },
     fields: {
       slug: "",
+      type: "",
     },
   }
 
