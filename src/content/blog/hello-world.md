@@ -2,7 +2,6 @@
 title: Hello World
 summary: <p>My first post on my brand new blog. A statement of intent.</p>
 date: 2020-04-01
-slug: hello-world
 ---
 
 Welcome to my blog, based in Gatsby. You are reading my first post, written in a markdown file and hosted in [github pages](https://github.com/calderon/blog).

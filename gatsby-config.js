@@ -11,14 +11,9 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
-        path: `${__dirname}/src/pages/blog`,
+        path: `${__dirname}/src/content/blog`,
       },
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
   ],
-  siteMetadata: {
-    home: {
-      title: `Title from siteMetadata`,
-    }
-  },
 }
