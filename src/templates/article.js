@@ -40,7 +40,9 @@ const Article = ({ article }) => {
     <article>
       <ArticleHeader>
         <h1>
-          <Link to={article.fields.slug}>{article.frontmatter.title}</Link>
+          <Link to={`/${article.fields.slug}`}>
+            {article.frontmatter.title}
+          </Link>
         </h1>
 
         <time datetime={date}>
@@ -73,8 +75,8 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query BlogArticle {
+    markdownRemark {
       html
       frontmatter {
         title
