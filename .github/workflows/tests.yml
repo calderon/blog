@@ -25,13 +25,3 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: test
         run: yarn test -u
-      - name: build
-        run: yarn build
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3.5.0
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: calderon/calderon.github.io
-          disable_nojekyll: true
-          publish_branch: master
-          publish_dir: ./public
