@@ -57,6 +57,7 @@ Object {
             <a
               class="sc-Axmtr cryISe"
               href="https://github.com/calderon"
+              rel="me"
               title="github"
             >
               github
@@ -68,6 +69,7 @@ Object {
             <a
               class="sc-Axmtr cryISe"
               href="https://twitter.com/dcalderon"
+              rel="me"
               title="twitter"
             >
               twitter
@@ -79,6 +81,7 @@ Object {
             <a
               class="sc-Axmtr cryISe"
               href="http://linkedin.com/in/danielcalderon"
+              rel="me"
               title="linkedin"
             >
               linkedin
@@ -90,6 +93,7 @@ Object {
             <a
               class="sc-Axmtr cryISe"
               href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+              rel="me"
               title="stack overflow"
             >
               stack overflow
@@ -112,6 +116,7 @@ Object {
               <a
                 class="sc-Axmtr cryISe"
                 href="https://www.gatsbyjs.org/"
+                rel="external noopener noreferrer"
                 title="gatsby"
               >
                 gatsby
@@ -121,11 +126,21 @@ Object {
               <a
                 class="sc-Axmtr cryISe"
                 href="https://github.com/calderon/blog"
+                rel="me external noopener noreferrer"
                 title="github"
               >
                 github
               </a>
-               and deployed using github actions.
+               and deployed to 
+              <a
+                class="sc-Axmtr cryISe"
+                href="https://www.netlify.com"
+                rel="external noopener noreferrer"
+                title="netlify"
+              >
+                netlify
+              </a>
+              .
             </p>
           </div>
           <div
@@ -201,6 +216,7 @@ Object {
           <a
             class="sc-Axmtr cryISe"
             href="https://github.com/calderon"
+            rel="me"
             title="github"
           >
             github
@@ -212,6 +228,7 @@ Object {
           <a
             class="sc-Axmtr cryISe"
             href="https://twitter.com/dcalderon"
+            rel="me"
             title="twitter"
           >
             twitter
@@ -223,6 +240,7 @@ Object {
           <a
             class="sc-Axmtr cryISe"
             href="http://linkedin.com/in/danielcalderon"
+            rel="me"
             title="linkedin"
           >
             linkedin
@@ -234,6 +252,7 @@ Object {
           <a
             class="sc-Axmtr cryISe"
             href="https://stackoverflow.com/users/7442990/daniel-calder%c3%b3n-portillo"
+            rel="me"
             title="stack overflow"
           >
             stack overflow
@@ -256,6 +275,7 @@ Object {
             <a
               class="sc-Axmtr cryISe"
               href="https://www.gatsbyjs.org/"
+              rel="external noopener noreferrer"
               title="gatsby"
             >
               gatsby
@@ -265,11 +285,21 @@ Object {
             <a
               class="sc-Axmtr cryISe"
               href="https://github.com/calderon/blog"
+              rel="me external noopener noreferrer"
               title="github"
             >
               github
             </a>
-             and deployed using github actions.
+             and deployed to 
+            <a
+              class="sc-Axmtr cryISe"
+              href="https://www.netlify.com"
+              rel="external noopener noreferrer"
+              title="netlify"
+            >
+              netlify
+            </a>
+            .
           </p>
         </div>
         <div

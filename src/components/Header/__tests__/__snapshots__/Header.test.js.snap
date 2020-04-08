@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxheI jXGDfO header"
+        class="sc-AxheI bnjXJJ header"
       >
         <h1
           class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
@@ -27,7 +27,7 @@ Object {
             to="#headerMenu"
           >
             <span
-              class="sc-AxhCb ccMvAG"
+              class="sc-AxhCb cHJnRe"
             >
               Go to navigation menu
             </span>
@@ -137,7 +137,7 @@ Object {
             to="#headerMenu"
           >
             <span
-              class="sc-AxhCb ccMvAG"
+              class="sc-AxhCb cHJnRe"
             >
               Go up
             </span>
@@ -163,7 +163,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-AxheI jXGDfO header"
+      class="sc-AxheI bnjXJJ header"
     >
       <h1
         class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
@@ -184,7 +184,7 @@ Object {
           to="#headerMenu"
         >
           <span
-            class="sc-AxhCb ccMvAG"
+            class="sc-AxhCb cHJnRe"
           >
             Go to navigation menu
           </span>
@@ -294,7 +294,7 @@ Object {
           to="#headerMenu"
         >
           <span
-            class="sc-AxhCb ccMvAG"
+            class="sc-AxhCb cHJnRe"
           >
             Go up
           </span>

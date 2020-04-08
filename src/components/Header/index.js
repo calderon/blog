@@ -28,6 +28,7 @@ const StyledHeader = styled.header.attrs(props => ({
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 1;
 
   @media ${devices.lg} {
     padding: 0 5rem;
@@ -264,7 +265,7 @@ const Header = props => {
           hiddenFrom="lg"
           onClick={handleCloseMenu}
         >
-          <AnchorLinkText>Go up</AnchorLinkText>
+          <AnchorLinkText srOnly>Go up</AnchorLinkText>
           <FontAwesomeIcon icon={faTimesCircle} />
         </AnchorLink>
       </HeaderNavigation>

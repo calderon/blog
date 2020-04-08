@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled, { css } from "styled-components"
 
-import { devices, skipLink } from "../../assets/styles/helpers"
+import { devices, srOnly, skipLink } from "../../assets/styles/helpers"
 
 const linkStyles = css`
   color: ${props => props.theme.palette.quaternary};
@@ -16,7 +16,7 @@ const StyledLink = styled.a`
   ${linkStyles}
 
   ${props =>
-    props.srOnly &&
+    props.skipLink &&
     css`
       ${skipLink};
     `}
@@ -26,7 +26,7 @@ const StyledInternalLink = styled(Link)`
   ${linkStyles}
 
   ${props =>
-    props.srOnly &&
+    props.skipLink &&
     css`
       ${skipLink};
     `}
@@ -47,8 +47,14 @@ const CustomLink = ({
 
   const isInternal = to && /^\/(?!\/)/.test(to)
 
-  if ("target" in other && other.target === "_blank") {
-    let rel = new Set(other.hasOwnProperty(rel) ? other.rel.split(" ") : [])
+  if ("me" in other) {
+    let rel = new Set("rel" in other ? other.rel.split(" ") : [])
+    rel.add("me")
+    other.rel = [...rel].join(" ")
+  }
+
+  if (other.external || "target" in other && other.target === "_blank" || ("rel" in other && other.rel.includes("external"))) {
+    let rel = new Set("rel" in other ? other.rel.split(" ") : [])
     rel.add("external")
     rel.add("noopener")
     rel.add("noreferrer")
@@ -70,7 +76,13 @@ const CustomLink = ({
   )
 }
 
-const AnchorLinkText = styled.span``
+const AnchorLinkText = styled.span`
+  ${props =>
+    props.srOnly &&
+    css`
+      ${srOnly};
+    `}
+`
 
 const StyledAnchor = styled(StyledLink)`
   cursor: pointer;
