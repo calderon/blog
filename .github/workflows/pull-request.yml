@@ -8,7 +8,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -16,18 +16,18 @@ jobs:
         node-version: '12.x'
 
     steps:
-    - uses: actions/checkout@v2
-    - name: install node ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: upgrade yarn
-      run: npm install yarn -g
-    - name: install
-      run: yarn install
-    - name: build
-      run: yarn build
-    - name: test
-      run: yarn test -u
-      env:
-        CI: true
+      - uses: actions/checkout@v2
+      - name: install node ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: upgrade yarn
+        run: npm install yarn -g
+      - name: install
+        run: yarn install
+      - name: build
+        run: yarn build
+      - name: test
+        run: yarn test -u
+        env:
+          CI: true

@@ -5,24 +5,28 @@ name: tests
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
 
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: '12.x'
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Setup Node
+      - name: install node ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: ${{ matrix.node-version }}
       - name: upgrade yarn
         run: npm install yarn -g
-      - name: install packages
-        run: yarn install --frozen-lockfile
+      - name: install
+        run: yarn install
+      - name: build
+        run: yarn build
       - name: test
         run: yarn test -u
         env:
