@@ -32,6 +32,8 @@ const GlobalStyle = createGlobalStyle`
 
   a {
     color: ${props => props.theme.palette.quaternary};
+    cursor: pointer;
+    text-decoration: underline;
 
     &:hover {
       color: ${props => props.theme.palette.quinary};

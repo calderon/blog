@@ -1,5 +1,12 @@
 import React from "react"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
+import { rgba } from "polished"
+
+import FontAwesomeIcon from "../FontAwesomeIcon"
+import {
+  faCreativeCommons,
+  faCreativeCommonsBy,
+} from "@fortawesome/free-brands-svg-icons"
 
 import { Container, ContainerHeader, ContainerHeading, ContainerContent, ContainerColumn } from "../Container"
 import List from "../List"
@@ -76,6 +83,31 @@ const ContactMe = props => {
 }
 
 
+const StyledLicenseLink = styled(Link)`
+  color: ${props => rgba(props.theme.palette.primary, .6)};
+
+  &:hover {
+    color: ${props => props.theme.palette.primary};
+  }
+
+  ${FontAwesomeIcon} {
+    margin-right: 1rem;
+    font-size: 3rem;
+    transition: color 300ms;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+`
+
+const LicenseLink = props => {
+  return (
+    <StyledLicenseLink href="https://creativecommons.org/licenses/by/4.0/" rel="license" external {...props} />
+  )
+}
+
+
 const CopyrightDisclaimer = props => {
   return (
     <Container as="footer" secondary small noHeader>
@@ -89,11 +121,11 @@ const CopyrightDisclaimer = props => {
           </p>
         </ContainerColumn>
 
-        <ContainerColumn opacity=".6" textRight>
-          <p>
-            content is{" "}
-            <span className="copyright">&copy; {new Date().getFullYear()} danielcalderon.dev</span>
-          </p>
+        <ContainerColumn textRight>
+          <LicenseLink>
+            <FontAwesomeIcon icon={faCreativeCommons} />
+            <FontAwesomeIcon icon={faCreativeCommonsBy} />
+          </LicenseLink>
         </ContainerColumn>
       </ContainerContent>
     </Container>
