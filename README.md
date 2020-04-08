@@ -9,7 +9,7 @@
 </h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/05635e0f-589b-4f78-b92f-ff7f0813508a/deploy-status)](https://app.netlify.com/sites/danielcalderon/deploys) 
-![calderon.github.io](https://github.com/calderon/blog/workflows/calderon.github.io/badge.svg)
+![tests](https://github.com/calderon/blog/workflows/tests/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/calderon/blog/badge.svg)](https://snyk.io/test/github/calderon/blog)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
