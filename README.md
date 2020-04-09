@@ -26,9 +26,9 @@ These are the source files for 💫 [my new personal site](https://danielcaldero
 
 This project is made to complete all [#100daysOfGatsby](https://www.gatsbyjs.org/blog/100days) challenges, creating my personal site in the process and improving my development skills on [Gatsby](https://www.gatsbyjs.org) & [React](reactjs.org/).
 
-It is automatically deployed and published to [danielcalderon.netlify.com](https://danielcalderon.netlify.com/) by using github actions.
+It is automatically deployed and published to [danielcalderon.dev](https://danielcalderon.dev) by using [netlify](https://www.netlify.com/).
 
-Not everything on this project is included in #100DaysOfGatsby challenges. If you want, you can keep up to date with the progress of this project by following the [issues](https://github.com/calderon/blog/issues).
+Not everything included on this repository is related with #100DaysOfGatsby challenges. You can keep up to date with the progress of this project by following the [issues](https://github.com/calderon/blog/issues).
 
 🧐 I'm also in [twitter](https://twitter.com/calderon) and [linkedin](https://www.linkedin.com/in/danielcalderon/).
 
@@ -51,4 +51,4 @@ Not everything on this project is included in #100DaysOfGatsby challenges. If yo
 
 Code of this site is under an MIT license but the content is under a [BY-ND license](https://creativecommons.org/licenses/by-nd/4.0).
 
-[![forthebadge cc-by-nd](http://ForTheBadge.com/images/badges/cc-by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0)
+[![forthebadge cc-by](http://ForTheBadge.com/images/badges/cc-by.svg)](https://creativecommons.org/licenses/by/4.0)
