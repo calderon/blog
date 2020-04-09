@@ -49,6 +49,6 @@ Not everything included on this repository is related with #100DaysOfGatsby chal
 * [Challenge 13](https://www.gatsbyjs.org/blog/100days/comments/): Enable Comments to Your Gatsby Blog
 * [Challenge 14](https://www.gatsbyjs.org/blog/100days/use-themes/): Rapidly Build Sites with Gatsby Themes
 
-Code of this site is under an MIT license but the content is under a [BY-ND license](https://creativecommons.org/licenses/by-nd/4.0).
+Code of this site is under an MIT license but the content is under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-nd/4.0).
 
 [![forthebadge cc-by](http://ForTheBadge.com/images/badges/cc-by.svg)](https://creativecommons.org/licenses/by/4.0)
