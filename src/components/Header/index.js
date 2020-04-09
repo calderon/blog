@@ -1,7 +1,7 @@
 import React, { useState, useLayoutEffect } from "react"
 import styled from "styled-components"
 import { rgba } from "polished"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import FontAwesomeIcon from "../FontAwesomeIcon"
 import {
   faBars,
   faTimesCircle,
@@ -99,7 +99,7 @@ const HeaderMenuItem = styled.li`
     margin-bottom: 0;
   }
 
-  .header__navigation__link__icon {
+  ${FontAwesomeIcon} {
     display: none;
 
     @media ${devices.lg} {

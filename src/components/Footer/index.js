@@ -92,8 +92,8 @@ const StyledLicenseLink = styled(Link)`
 
   ${FontAwesomeIcon} {
     margin-right: 1rem;
-    font-size: 3rem;
     transition: color 300ms;
+    font-size: 3rem;
 
     &:last-child {
       margin-right: 0;

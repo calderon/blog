@@ -6,34 +6,34 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxheI bnjXJJ header"
+        class="sc-Axmtr bltRkO header"
       >
         <h1
-          class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
+          class="sc-AxirZ sc-AxmLO fyhwae header__title heading heading--h1"
         >
           <a
             aria-current="page"
-            class="sc-AxiKw ihAuBo header__title__link"
+            class="sc-AxhCb ifHkrc header__title__link"
             href="/"
           >
             Daniel Calderón
           </a>
         </h1>
         <nav
-          class="sc-fzoLsD ypmdL header__navigation"
+          class="sc-fzpans jPENMZ header__navigation"
         >
           <a
-            class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--showMenu"
+            class="sc-AxiKw sc-AxgMl gvFCAS header__navigation__anchor header__navigation__anchor--showMenu"
             to="#headerMenu"
           >
             <span
-              class="sc-AxhCb cHJnRe"
+              class="sc-AxhUy cyqUdH"
             >
               Go to navigation menu
             </span>
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-bars fa-w-14 "
+              class="svg-inline--fa fa-bars fa-w-14 sc-AxjAm StDqN"
               data-icon="bars"
               data-prefix="fas"
               focusable="false"
@@ -48,24 +48,24 @@ Object {
             </svg>
           </a>
           <h1
-            class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
+            class="sc-AxirZ kqieUG header__navigation_title heading heading--h1"
           >
             Navigation menu
           </h1>
           <ul
-            class="sc-AxgMl sc-AxmLO cahYMx header__navigation__list list"
+            class="sc-AxheI sc-fzozJi dNGwyY header__navigation__list list"
             id="headerMenu"
           >
             <li
-              class="sc-fzozJi cxwDqd"
+              class="sc-fzoLsD kqHVaE"
             >
               <a
-                class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--blog"
+                class="sc-AxhCb ifHkrc header__navigation__link header__navigation__link--blog"
                 href="/blog"
               >
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-newspaper fa-w-18 header__navigation__link__icon"
+                  class="svg-inline--fa fa-newspaper fa-w-18 sc-AxjAm StDqN header__navigation__link__icon"
                   data-icon="newspaper"
                   data-prefix="fas"
                   focusable="false"
@@ -82,15 +82,15 @@ Object {
               </a>
             </li>
             <li
-              class="sc-fzozJi cxwDqd"
+              class="sc-fzoLsD kqHVaE"
             >
               <a
-                class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--about"
+                class="sc-AxhCb ifHkrc header__navigation__link header__navigation__link--about"
                 href="/about"
               >
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-address-card fa-w-18 header__navigation__link__icon"
+                  class="svg-inline--fa fa-address-card fa-w-18 sc-AxjAm StDqN header__navigation__link__icon"
                   data-icon="address-card"
                   data-prefix="fas"
                   focusable="false"
@@ -107,15 +107,15 @@ Object {
               </a>
             </li>
             <li
-              class="sc-fzozJi cxwDqd"
+              class="sc-fzoLsD kqHVaE"
             >
               <a
-                class="sc-AxirZ VMDWU header__navigation__link header__navigation__link--contact"
+                class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--contact"
                 href="#contact"
               >
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-envelope fa-w-16 header__navigation__link__icon"
+                  class="svg-inline--fa fa-envelope fa-w-16 sc-AxjAm StDqN header__navigation__link__icon"
                   data-icon="envelope"
                   data-prefix="fas"
                   focusable="false"
@@ -133,17 +133,17 @@ Object {
             </li>
           </ul>
           <a
-            class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--hideMenu"
+            class="sc-AxiKw sc-AxgMl gvFCAS header__navigation__anchor header__navigation__anchor--hideMenu"
             to="#headerMenu"
           >
             <span
-              class="sc-AxhCb cHJnRe"
+              class="sc-AxhUy cyqUdH"
             >
               Go up
             </span>
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-times-circle fa-w-16 "
+              class="svg-inline--fa fa-times-circle fa-w-16 sc-AxjAm StDqN"
               data-icon="times-circle"
               data-prefix="fas"
               focusable="false"
@@ -163,34 +163,34 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-AxheI bnjXJJ header"
+      class="sc-Axmtr bltRkO header"
     >
       <h1
-        class="sc-AxjAm sc-Axmtr etMOqb header__title heading heading--h1"
+        class="sc-AxirZ sc-AxmLO fyhwae header__title heading heading--h1"
       >
         <a
           aria-current="page"
-          class="sc-AxiKw ihAuBo header__title__link"
+          class="sc-AxhCb ifHkrc header__title__link"
           href="/"
         >
           Daniel Calderón
         </a>
       </h1>
       <nav
-        class="sc-fzoLsD ypmdL header__navigation"
+        class="sc-fzpans jPENMZ header__navigation"
       >
         <a
-          class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--showMenu"
+          class="sc-AxiKw sc-AxgMl gvFCAS header__navigation__anchor header__navigation__anchor--showMenu"
           to="#headerMenu"
         >
           <span
-            class="sc-AxhCb cHJnRe"
+            class="sc-AxhUy cyqUdH"
           >
             Go to navigation menu
           </span>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-bars fa-w-14 "
+            class="svg-inline--fa fa-bars fa-w-14 sc-AxjAm StDqN"
             data-icon="bars"
             data-prefix="fas"
             focusable="false"
@@ -205,24 +205,24 @@ Object {
           </svg>
         </a>
         <h1
-          class="sc-AxjAm dxUEld header__navigation_title heading heading--h1"
+          class="sc-AxirZ kqieUG header__navigation_title heading heading--h1"
         >
           Navigation menu
         </h1>
         <ul
-          class="sc-AxgMl sc-AxmLO cahYMx header__navigation__list list"
+          class="sc-AxheI sc-fzozJi dNGwyY header__navigation__list list"
           id="headerMenu"
         >
           <li
-            class="sc-fzozJi cxwDqd"
+            class="sc-fzoLsD kqHVaE"
           >
             <a
-              class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--blog"
+              class="sc-AxhCb ifHkrc header__navigation__link header__navigation__link--blog"
               href="/blog"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-newspaper fa-w-18 header__navigation__link__icon"
+                class="svg-inline--fa fa-newspaper fa-w-18 sc-AxjAm StDqN header__navigation__link__icon"
                 data-icon="newspaper"
                 data-prefix="fas"
                 focusable="false"
@@ -239,15 +239,15 @@ Object {
             </a>
           </li>
           <li
-            class="sc-fzozJi cxwDqd"
+            class="sc-fzoLsD kqHVaE"
           >
             <a
-              class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--about"
+              class="sc-AxhCb ifHkrc header__navigation__link header__navigation__link--about"
               href="/about"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-address-card fa-w-18 header__navigation__link__icon"
+                class="svg-inline--fa fa-address-card fa-w-18 sc-AxjAm StDqN header__navigation__link__icon"
                 data-icon="address-card"
                 data-prefix="fas"
                 focusable="false"
@@ -264,15 +264,15 @@ Object {
             </a>
           </li>
           <li
-            class="sc-fzozJi cxwDqd"
+            class="sc-fzoLsD kqHVaE"
           >
             <a
-              class="sc-AxirZ VMDWU header__navigation__link header__navigation__link--contact"
+              class="sc-AxiKw ihAuBo header__navigation__link header__navigation__link--contact"
               href="#contact"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-envelope fa-w-16 header__navigation__link__icon"
+                class="svg-inline--fa fa-envelope fa-w-16 sc-AxjAm StDqN header__navigation__link__icon"
                 data-icon="envelope"
                 data-prefix="fas"
                 focusable="false"
@@ -290,17 +290,17 @@ Object {
           </li>
         </ul>
         <a
-          class="sc-AxirZ sc-AxhUy eRUwbI header__navigation__anchor header__navigation__anchor--hideMenu"
+          class="sc-AxiKw sc-AxgMl gvFCAS header__navigation__anchor header__navigation__anchor--hideMenu"
           to="#headerMenu"
         >
           <span
-            class="sc-AxhCb cHJnRe"
+            class="sc-AxhUy cyqUdH"
           >
             Go up
           </span>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-times-circle fa-w-16 "
+            class="svg-inline--fa fa-times-circle fa-w-16 sc-AxjAm StDqN"
             data-icon="times-circle"
             data-prefix="fas"
             focusable="false"
