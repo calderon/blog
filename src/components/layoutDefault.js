@@ -12,7 +12,7 @@ import Footer from "./Footer"
 const Page = styled.div.attrs(props => ({
   className: "page",
 }))`
-  max-width: 1120px;
+  max-width: 1440px;
   margin: 0 auto;
 `
 
