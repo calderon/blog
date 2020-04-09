@@ -114,7 +114,7 @@ const CopyrightDisclaimer = props => {
       <ContainerContent columnize={2}>
         <ContainerColumn>
           <p>
-            This blog is made with{" "}
+            This site is made with{" "}
             <Link to="https://www.gatsbyjs.org/" title="gatsby" external />, hosted in{" "}
             <Link to="https://github.com/calderon/blog" title="github" me external /> and
             deployed to <Link to="https://www.netlify.com" title="netlify" external />.
