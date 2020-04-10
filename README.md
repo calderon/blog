@@ -48,6 +48,7 @@ Not everything included on this repository is related with #100DaysOfGatsby chal
 * [Challenge 12](https://www.gatsbyjs.org/blog/100days/apps/): Transform Your Gatsby Website into a Web App
 * [Challenge 13](https://www.gatsbyjs.org/blog/100days/comments/): Enable Comments to Your Gatsby Blog
 * [Challenge 14](https://www.gatsbyjs.org/blog/100days/use-themes/): Rapidly Build Sites with Gatsby Themes
+* [Challenge 15](https://www.gatsbyjs.org/blog/100days/create-themes/): Publish Website Kits with Gatsby Themes
 
 Code of this site is under an MIT license but the content is under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-nd/4.0).
 
