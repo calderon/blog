@@ -21,7 +21,7 @@ const Container = styled.div`
     max-width: 65ch;
   }
 
-  ${props =>
+  ${(props) =>
     props.main &&
     css`
       padding-top: 4.5rem;
@@ -33,48 +33,48 @@ const Container = styled.div`
       }
     `}
 
-  ${props =>
+  ${(props) =>
     props.primary &&
     css`
-      background-color: ${props => props.theme.palette.primary};
-      color: ${props => props.theme.colors.bright};
+      background-color: ${(props) => props.theme.palette.primary};
+      color: ${(props) => props.theme.colors.bright};
     `}
 
-  ${props =>
+  ${(props) =>
     props.secondary &&
     css`
-      background-color: ${props => props.theme.palette.secondary};
-      color: ${props => props.theme.palette.primary};
+      background-color: ${(props) => props.theme.palette.secondary};
+      color: ${(props) => props.theme.palette.primary};
 
       a {
         font-weight: 700;
       }
     `}
 
-  ${props =>
+  ${(props) =>
     props.tertiary &&
     css`
-      background-color: ${props => props.theme.palette.tertiary};
-      color: ${props => props.theme.palette.primary};
+      background-color: ${(props) => props.theme.palette.tertiary};
+      color: ${(props) => props.theme.palette.primary};
     `}
 
-  ${props =>
+  ${(props) =>
     props.bright &&
     css`
-      background-color: ${props => props.theme.colors.bright};
-      color: ${props => rgba(props.theme.palette.primary, 0.6)};
+      background-color: ${(props) => props.theme.colors.bright};
+      color: ${(props) => rgba(props.theme.palette.primary, 0.6)};
 
       .heading {
-        color: ${props => props.theme.palette.primary};
+        color: ${(props) => props.theme.palette.primary};
       }
 
       mark {
-        color: ${props => props.theme.palette.primary};
+        color: ${(props) => props.theme.palette.primary};
         background: none;
       }
     `}
 
-  ${props =>
+  ${(props) =>
     props.inline &&
     css`
       @media ${devices.lg} {
@@ -96,13 +96,13 @@ const Container = styled.div`
       }
     `}
 
-  ${props =>
+  ${(props) =>
     props.noHeader &&
     css`
       padding-top: 3.8rem;
     `}
 
-  ${props =>
+  ${(props) =>
     props.small &&
     css`
       font-size: 1.4rem;
@@ -121,11 +121,11 @@ const ContainerHeading = styled(Heading)`
 `
 
 const ContainerContent = styled.div`
-  ${props =>
+  ${(props) =>
     props.columnize &&
     css`
       display: grid;
-      grid-template-columns: repeat(${props => props.columnize}, 1fr);
+      grid-template-columns: repeat(${(props) => props.columnize}, 1fr);
       grid-gap: 2.5rem;
 
       @media ${devices.lg} {
@@ -134,7 +134,7 @@ const ContainerContent = styled.div`
 
       & > ${ContainerColumn} {
         grid-column-start: 1;
-        grid-column-end: ${props => props.columnize + 1};
+        grid-column-end: ${(props) => props.columnize + 1};
 
         @media ${devices.lg} {
           grid-column-start: auto;
@@ -145,13 +145,13 @@ const ContainerContent = styled.div`
 `
 
 const ContainerColumn = styled.div`
-  ${props =>
+  ${(props) =>
     props.opacity &&
     css`
-      opacity: ${props => props.opacity};
+      opacity: ${(props) => props.opacity};
     `}
 
-  ${props =>
+  ${(props) =>
     props.textRight &&
     css`
       @media ${devices.lg} {

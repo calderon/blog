@@ -11,11 +11,11 @@ import { Container } from "../components/Container"
 
 const AboutMeImage = styled.figure`
   margin: 1rem 0 2rem;
-  padding: .5rem;
-  border: .2rem solid ${props => props.theme.colors.light};
+  padding: 0.5rem;
+  border: 0.2rem solid ${(props) => props.theme.colors.light};
 `
 
-const About = props => {
+const About = (props) => {
   return (
     <Layout>
       <main>
@@ -30,29 +30,19 @@ const About = props => {
           </AboutMeImage>
 
           <p>
-            I'm a Front-end engineer freelancer from Sevilla, Spain, focused on web
+            I'm a full-stack engineer from Sevilla, Spain, focused on web
             development.
           </p>
           <p>
             Currently, working at{" "}
             <Link
-              to="https://www.avallain.com/"
+              to="https://gokatch.com/"
               rel="external noreferrer"
-              title="Avallain"
+              title="Katch"
             />
-            , developing e-learning products for clients all around the world, as{" "}
-            <Link
-              to="https://richmondlp.com/"
-              rel="external noreferrer"
-              title="Richmond"
-            />{" "}
-            or{" "}
-            <Link
-              to="https://global.oup.com"
-              rel="external noreferrer"
-              title="Oxford University Press"
-            />
-            .
+            , a collaboration tool made to helping people blow up the calendar
+            that allows you to connect through ad hoc meetings on topics that
+            really matter.
           </p>
           <p>
             At the beginning of my career, I had the opportunity to attend of
@@ -75,10 +65,13 @@ const About = props => {
           <p>
             This course allowed me to acquire a deep knowledge about interface
             and product design. Meanwhile, I worked as{" "}
-            <mark><abbr lang="en" title="User Interface">
-              UI
-            </abbr>{" "}
-            designer</mark> at{" "}
+            <mark>
+              <abbr lang="en" title="User Interface">
+                UI
+              </abbr>{" "}
+              designer
+            </mark>{" "}
+            at{" "}
             <Link
               to="https://secuoyas.com/"
               rel="external noreferrer"
@@ -90,12 +83,13 @@ const About = props => {
           <p>
             After my foray into design, I decided to return to my developer
             side, being a partner and part of one of the first agile companies
-            in my home city, working with <mark>Rails</mark> to develop cross-platform
-            websites.
+            in my home city, working with <mark>Rails</mark> to develop
+            cross-platform websites.
           </p>
           <p>
-            That's when I decided to begin my journey as a <mark>front-end freelancer</mark>,
-            working on important companies such as{" "}
+            That's when I decided to begin my journey as a{" "}
+            <mark>front-end freelancer</mark>, working on important companies
+            such as{" "}
             <Link
               to="https://www.jobandtalent.com"
               rel="external noreferrer"
@@ -114,15 +108,21 @@ const About = props => {
             />
             .
           </p>
+
           <p>
-            Nowadays, at{" "}
+            Many years of my career I've been working at{" "}
             <Link
-              to="https://www.avallain.com/"
+              to="https://www.jobandtalent.com"
               rel="external noreferrer"
               title="Avallain"
             />
-            , I'm developing e-learning solutions for important clients and
-            improving my javascript skills in <mark>React</mark> and <mark>Gatsby</mark>.
+            , developing e-learning products for clients all around the world,
+            as Richmond or Oxford University Press.
+          </p>
+
+          <p>
+            Nowadays, Nowadays I keep continue improving my javascript skills in
+            Node, React and Gatsby.
           </p>
         </Container>
       </main>
